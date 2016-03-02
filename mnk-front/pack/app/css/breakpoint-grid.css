@@ -1,0 +1,82 @@
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+	#portrait{display: block;}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+	#landscape{display: block;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape),
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+
+html body .grid_5 form input[type=text],
+html body .grid_5 form input[type=password],
+html body .grid_5 form textarea,
+html body .grid_5 form select,
+html body .grid_5 form option,
+html body .grid_5 form label,
+html body .grid_5 form button,
+html body .grid_5 div.app-helper
+{ font-size: 1.3em !important; color: #4e4e4e;}
+
+	.grid,.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15{position:relative; display: block; left: 0px !important; right: 0px !important; top:0px !important; width:100% !important;margin-left: 0% !important; margin-right: 0% !important; padding: 0 !important}
+
+html body .grid_5 form textarea,
+html body .grid_5 form input[type=text],
+html body .grid_5 form input[type=email],
+html body .grid_5 form input[type=password],
+html body .grid_5 form select
+{margin:0px;margin-bottom: 50px;width: 98%;padding: 1%;-webkit-appearance:none; border: 0px;}
+html body .grid_5 form label{
+	width: 98%;
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
+	/*margin: 0px;*/
+
+}
+.app-header{padding:20px;
+	color: #fff; margin-bottom: 20px;}
+.app-menu { padding-left: 0px;}
+.app-menu a{ display: block; font-size: 1.3em;
+	padding-left: 60px !important;
+	background-size: 24px 24px;
+}
+
+.app-content{
+
+	padding-top: 40px;
+}
+.app-content.app-padding{	padding-left: 40px;	padding-right: 40px;}
+img#logo{ margin-bottom: 50px;display: block; width: 120px; height: 120px;}
+body,td,input,textarea,select,option,p,li,label
+{
+    font-size: 14px!important;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    color: #fff;
+
+}
+
+
+
+}

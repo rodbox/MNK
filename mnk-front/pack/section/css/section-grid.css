@@ -1,0 +1,46 @@
+.fixed-menu{ position: fixed; right: 0px; top: 150px; z-index: 999;}
+.fixed-menu li{ text-align: right; padding: 0px; margin-bottom: 3px; }
+
+.fixed-menu li a {z-index: 500; position: relative;  padding: 5px; color: #000; font-size: 1.6em;line-height: 1.6em;background-color: #fff; text-decoration: none;
+
+
+-moz-opacity: 0.45;
+opacity: 0.45;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=45);
+
+
+}
+.fixed-menu li a {}
+
+.fixed-menu li a:hover { }
+
+.fixed-menu li a.onActive,
+.fixed-menu li:hover a {
+
+
+z-index: 505;
+}
+.fixed-menu li a.onActive {
+
+
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/fff/32px/arrow-right2.png');
+.png');
+
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+.page { display: block; overflow: hidden; position: relative; left:0px; top:0px;width: 100%; }
+
+/*html,*/
+body,
+.page-container,
+.page-content,
+.container-fluid,
+.row-fluid ,
+.page{ height: 100% !important;}
+
+body.full #sidebar,
+body.full .navbar-fixed-top {
+	display: none;
+}
+html,body { height: 100%;}

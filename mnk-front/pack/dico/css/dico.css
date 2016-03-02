@@ -1,0 +1,20 @@
+@font-face { font-family: Harrison; src: url('../img/Harrison.ttf'); }
+@font-face { font-family: CabinSketch; src: url('../img/CabinSketch-Regular.otf'); }
+@font-face { font-family: edo; src: url('../img/edo.otf'); }
+@font-face { font-family: Mathlete-Bulky; src: url('../img/Mathlete-Bulky.otf'); }
+@font-face { font-family: Mathlete-BulkySlant; src: url('../img/Mathlete-BulkySlant.otf'); }
+@font-face { font-family: Mathlete-Skinny; src: url('../img/Mathlete-Skinny.otf'); }
+@font-face { font-family: Mathlete-SkinnySlant; src: url('../img/Mathlete-SkinnySlant.otf'); }
+
+h1{
+font-family: "CabinSketch"; font-size: 200px;padding-top: 100px;
+color: #000;
+
+	-ms-filter 	: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+	filter 		: alpha(opacity=20):
+	-moz-opacity 	: 0.2;
+	-khtml-opacity 	: 0.2;
+	opacity 	: 0.2;
+
+}
+input[type=text],textarea,select,option{background-color: #7e7e7e; border: none;padding:5px; color: #fff;}

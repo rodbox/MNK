@@ -1,0 +1,40 @@
+    body * { font-family: 'Lucida Grande',Arial; color: #242424; }
+    a { text-decoration: none;}
+
+
+
+    .droparea{ background-color: #F7F7F7; display: inline-block;  width: 100%; padding: 3px; text-align: center; border-radius: 5px; }
+    .droparea.dragover{ border-color: #4b73b8;}
+
+    .droparea .small { font-size: 0.8em; display: block; color: #999; margin-bottom: 30px;}
+    .droparea a {border-radius: 5px;background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/48px/upload7.png'); background-position: center 10px; background-repeat: no-repeat; line-height: 48px; padding-top: 45px; cursor: pointer; color: #888888; height: 100%; width: 98%; border: 2px dashed #E4E4E4; display: inline-block;}
+    .small { font-size: 0.8em;}
+
+    .file{ padding: 5px; font-size: 11px; color: #a8aaa6; background-color: #F7F7F7; height: 90px; width: 90px; display: inline-block; padding: 5px; margin: 5px;}
+    .file .small { font-size: 0.8em; display: block;}
+    .file.upload-current {
+    	font-weight: bolder;
+    }
+
+
+.plupload-list .file {
+	display: block;
+	height: 24px;
+	width:100%;
+
+	margin: 0px;
+	margin-top: 5px;
+}
+.plupload-list .file .small{
+	display: inline;
+
+}
+
+
+
+    .progressBar{height: 5px; padding: 1px; width: 100%; background-color: #f2f2f2;}
+    .progressBar .progress{background-color: #ffd234; height: 5px; width: 0%;}
+    .upload-complete .progressBar .progress{ background-color: #67b82b;}
+.file-list {display: none;}
+
+#plupload { width:400px;}

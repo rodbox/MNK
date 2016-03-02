@@ -1,0 +1,94 @@
+/***
+default theme
+***/
+
+/***
+Reset and overrides  
+***/
+html, body {
+  height: 100%;
+}
+
+
+/***
+Page header
+***/
+.header .navbar-inner {
+  filter:none !important;
+  background-image: none !important;
+  background-color: #1f1f1f !important;
+}
+
+.header .btn-navbar {  
+  background-color: #1f1f1f !important;
+} 
+
+.header .nav .dropdown-toggle:hover, 
+.header .nav .dropdown.open .dropdown-toggle {
+  background-color: #333 !important;
+}
+
+.header .nav li.dropdown .dropdown-toggle i {
+  color: #808080 !important;
+}
+
+
+/***
+Horizontal Menu(new in v1.2)
+***/
+
+/*search*/
+
+.header .hor-menu .hor-menu-search-form-toggler.hide {
+  background: #101010 url(../../img/hor-menu-search-close.png) no-repeat center;
+}
+
+.header .hor-menu .search-form {
+  background:#101010;
+}
+
+.header .hor-menu .search-form .btn {
+  color: #999;
+  background: #2d2d2d url(../../img/search-icon.png) no-repeat center;
+}
+
+.header .hor-menu .search-form form input {
+  color: #999;
+}
+
+.header .hor-menu .search-form form input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+.header .hor-menu .search-form form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+.header .hor-menu .search-form form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+.header .hor-menu .search-form form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+}
+
+/***
+Landscape phone to portrait tablet
+***/
+@media (max-width:979px) { 
+  /***
+  page sidebar
+  ***/
+  .page-sidebar {
+    background-color: #232427 !important;
+  }
+
+  .page-sidebar > ul > li > a {
+    border-top: 1px solid #2c2d30 !important;
+  }
+
+  .page-sidebar > ul > li:last-child > a {
+    border-bottom: 0 !important;
+  }
+
+  .page-sidebar .sidebar-search input{
+    background-color: #232427  !important;  
+  }
+}

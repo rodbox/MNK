@@ -1,0 +1,8 @@
+{
+	"Name"        : "Pack manager",
+	"Version"     : "0.1",
+	"Author"      : "Rodolphe",
+	"Email"       : "",
+	"Description" :	"Gestionnaire de pack pour MNK.
+	Créer des fichiers depuis des templates MNK pour faciliter la création de nouvelles fonctionnalitées tout en concervant une structure homogène."
+}

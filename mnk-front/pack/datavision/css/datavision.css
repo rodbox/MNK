@@ -1,0 +1,24 @@
+/* SVG */
+svg.svg-container {width: 100%; height: 100%;}
+
+/* DRAG LINK  */
+/* type 1 */
+.drag-link.type-1{
+	width: 200px;
+	background-color: #fff;
+}
+
+.drag-link.type-1 .hook {
+	background-color: #000;
+	width: 12px; height: 32px;
+}
+.drag-link.type-1 .drag-title {
+	height: 32px;
+}
+.drag-link.type-1 .drag-title span.title{padding: 5px;}
+.drag-link.type-1 .hook.hook-toParent{float: left;}
+.drag-link.type-1 .hook.hook-toChild{float: right;}
+
+circle {
+	stroke-dasharray: 4,4;
+}

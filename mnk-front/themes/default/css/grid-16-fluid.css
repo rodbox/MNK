@@ -1,0 +1,330 @@
+html {
+ 	min-width 	: 100%;
+	min-height 	: 100%;
+}
+body {
+	height 		: 100%;
+	margin 		: 0;
+	padding 	: 0;
+	min-width 	: 960px;
+}
+.container_16 {
+	width 		: 100%;
+	min-height 	: 100%;
+}
+
+
+/* ######### Size Grid Relative attributes ######### */
+
+
+.page,
+.grid,
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16 {
+	display 	: inline;
+	position 	: relative;
+	float 		: left;
+}
+
+
+/* ######### Size Grid Fixed attributes ######### */
+
+
+.grid.fixed,
+.grid_1.fixed,
+.grid_2.fixed,
+.grid_3.fixed,
+.grid_4.fixed,
+.grid_5.fixed,
+.grid_6.fixed,
+.grid_7.fixed,
+.grid_8.fixed,
+.grid_9.fixed,
+.grid_10.fixed,
+.grid_11.fixed,
+.grid_12.fixed,
+.grid_13.fixed,
+.grid_14.fixed,
+.grid_15.fixed,
+.grid_16.fixed {
+	position 	: fixed;
+}
+
+
+/* ######### Size Grid ######### */
+
+
+.grid_1 	{ width : 6.25%;}
+.grid_2 	{ width : 12.5%;}
+.grid_3 	{ width : 18.75%;}
+.grid_4 	{ width : 25%;}
+.grid_5 	{ width : 31.25%;}
+.grid_6 	{ width : 37.5%;}
+.grid_7 	{ width : 43.75%;}
+.grid_8 	{ width : 50%;}
+.grid_9 	{ width : 56.25%;}
+.grid_10 	{ width : 62.5%;}
+.grid_11 	{ width : 68.75%;}
+.grid_12 	{ width : 75%;}
+.grid_13 	{ width : 81.25%;}
+.grid_14 	{ width : 87.5%;}
+.grid_15 	{ width : 93.75%;}
+.grid_16 	{ width : 100%;}
+
+
+/* ######### Size Page ######### */
+
+
+.page 	{ width : 100%;}
+
+
+/* ######### Push Space ######### */
+
+
+.push,
+.to_push  	{ left : 0px;}
+
+.push_1,
+.to_push_1  	{ left : 6.25%;}
+
+.push_2,
+.to_push_2  	{ left : 12.5%;}
+
+.push_3,
+.to_push_3  	{ left : 18.75%;}
+
+.push_4,
+.to_push_4  	{ left : 25%;}
+
+.push_5,
+.to_push_5  	{ left : 31.25%;}
+
+.push_6,
+.to_push_6  	{ left : 37.5%;}
+
+.push_7,
+.to_push_7  	{ left : 43.75%;}
+
+.push_8,
+.to_push_8  	{ left : 50%;}
+
+.push_9,
+.to_push_9  	{ left : 56.25%;}
+
+.push_10,
+.to_push_10  	{ left : 62.5%;}
+
+.push_11,
+.to_push_11  	{ left : 68.75%;}
+
+.push_12,
+.to_push_12  	{ left : 75%;}
+
+.push_13,
+.to_push_13  	{ left : 81.25%;}
+
+.push_14,
+.to_push_14  	{ left : 87.5%;}
+
+.push_15,
+.to_push_15  	{ left : 93.75%;}
+
+
+
+/* ######### Pull Space ######### */
+
+
+.pull,
+.to_pull  	{ left : 0px;}
+
+.pull_1,
+.to_pull_1  	{ left : -6.25%;}
+
+.pull_2,
+.to_pull_2  	{ left : -12.5%;}
+
+.pull_3,
+.to_pull_3  	{ left : -18.75%;}
+
+.pull_4,
+.to_pull_4  	{ left : -25%;}
+
+.pull_5,
+.to_pull_5  	{ left : -31.25%;}
+
+.pull_6,
+.to_pull_6  	{ left : -37.5%;}
+
+.pull_7,
+.to_pull_7  	{ left : -43.75%;}
+
+.pull_8,
+.to_pull_8  	{ left : -50%;}
+
+.pull_9,
+.to_pull_9  	{ left : -56.25%;}
+
+.pull_10,
+.to_pull_10  	{ left : -62.5%;}
+
+.pull_11,
+.to_pull_11  	{ left : -68.75%;}
+
+.pull_12,
+.to_pull_12  	{ left : -75%;}
+
+.pull_13,
+.to_pull_13  	{ left : -81.25%;}
+
+.pull_14,
+.to_pull_14  	{ left : -87.5%;}
+
+.pull_15,
+.to_pull_15  	{ left : -93.75%;}
+
+
+
+/* ######### Out Space ######### */
+
+
+.out,
+.to_out  	{ right : 0px;}
+
+.out_1,
+.to_out_1  	{ right : -6.25%;}
+
+.out_2,
+.to_out_2  	{ right : -12.5%;}
+
+.out_3,
+.to_out_3  	{ right : -18.75%;}
+
+.out_4,
+.to_out_4  	{ right : -25%;}
+
+.out_5,
+.to_out_5  	{ right : -31.25%;}
+
+.out_6,
+.to_out_6  	{ right : -37.5%;}
+
+.out_7,
+.to_out_7  	{ right : -43.75%;}
+
+.out_8,
+.to_out_8  	{ right : -50%;}
+
+.out_9,
+.to_out_9  	{ right : -56.25%;}
+
+.out_10,
+.to_out_10  	{ right : -62.5%;}
+
+.out_11,
+.to_out_11  	{ right : -68.75%;}
+
+.out_12,
+.to_out_12  	{ right : -75%;}
+
+.out_13,
+.to_out_13  	{ right : -81.25%;}
+
+.out_14,
+.to_out_14  	{ right : -87.5%;}
+
+.out_15,
+.to_out_15  	{ right : -93.75%;}
+
+
+
+/* ######### Line Size ######### */
+
+
+.line_1  	{ height : 25%;}
+
+.line_2  	{ height : 50%;}
+
+.line_3  	{ height : 75%;}
+
+.line_4  	{ height : 100%;}
+
+
+
+/* ######### Push top Space ######### */
+
+
+.top
+.to_top 	{ top : 0px;}
+
+.top_1,
+.to_top_1  	{ top : 25%;}
+
+.top_2,
+.to_top_2  	{ top : 50%;}
+
+.top_3,
+.to_top_3  	{ top : 75%;}
+
+.top_4,
+.to_top_4  	{ top : 100%;}
+
+
+
+/* ######### Push bottom Space ######### */
+
+
+.bottom
+.to_bottom 	{ bottom : 0px;}
+
+.bottom_1,
+.to_bottom_1  	{ bottom : 25%;}
+
+.bottom_2,
+.to_bottom_2  	{ bottom : 50%;}
+
+.bottom_3,
+.to_bottom_3  	{ bottom : 75%;}
+
+.bottom_4,
+.to_bottom_4  	{ bottom : 100%;}
+
+
+
+/* ######### Z-index ######### */
+
+
+.z-normal 	{ z-index : 500;}
+.z-normal_1  	{ z-index : 501;}
+.z-normal_2  	{ z-index : 502;}
+.z-normal_3  	{ z-index : 503;}
+.z-normal_4  	{ z-index : 504;}
+.z-normal_5  	{ z-index : 505;}
+
+.z-overlay 	{ z-index : 600;}
+.z-overlay_1  	{ z-index : 601;}
+.z-overlay_2  	{ z-index : 602;}
+.z-overlay_3  	{ z-index : 603;}
+.z-overlay_4  	{ z-index : 604;}
+.z-overlay_5  	{ z-index : 605;}
+
+
+
+/* ######### Other Space ######### */
+
+
+.ingrid 	{ padding : 5px;}
+.clear 		{ clear   : both;}

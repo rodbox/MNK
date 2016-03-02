@@ -1,0 +1,519 @@
+
+/* 
+    Document   : mnk-ui
+    Created on : 17 janv. 2012, 20:06:23
+    Author     : rodolphejacquemin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.ui16alert
+{
+    display:		inline-block;
+    width:		16px;
+    height:		14px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -585px -242px;
+}
+
+.ui16Bulb
+{
+    display:		inline-block;
+    width:		10px;
+    height:		16px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1072px -239px;
+}
+
+.ui16edit
+{
+    display:		inline-block;
+    width:		12px;
+    height:		16px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1082px -239px;
+}
+
+.ui16error
+{
+    display:		inline-block;
+    width:		16px;
+    height:		16px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1094px -239px;
+}
+
+.ui16first
+{
+    display:		inline-block;
+    width:		16px;
+    height:		14px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -601px -242px;
+}
+
+.ui16last
+{
+    display:		inline-block;
+    width:		16px;
+    height:		14px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -617px -242px;
+}
+
+.ui16new
+{
+    display:		inline-block;
+    width:		12px;
+    height:		16px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1110px -239px;
+}
+
+.ui16next
+{
+    display:		inline-block;
+    width:		12px;
+    height:		14px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -633px -242px;
+}
+
+.ui16prev
+{
+    display:		inline-block;
+    width:		12px;
+    height:		14px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -645px -242px;
+}
+
+.ui16save
+{
+    display:		inline-block;
+    width:		16px;
+    height:		16px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1122px -239px;
+}
+
+.ui16valid
+{
+    display:		inline-block;
+    width:		16px;
+    height:		13px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -417px -243px;
+}
+
+.ui32alert
+{
+    display:		inline-block;
+    width:		32px;
+    height:		26px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1231px -228px;
+}
+
+.ui32bulb
+{
+    display:		inline-block;
+    width:		20px;
+    height:		30px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1917px -201px;
+}
+
+.ui32edit
+{
+    display:		inline-block;
+    width:		22px;
+    height:		32px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1631px -205px;
+}
+
+.ui32error
+{
+    display:		inline-block;
+    width:		32px;
+    height:		32px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1799px -201px;
+}
+
+.ui32first
+{
+    display:		inline-block;
+    width:		30px;
+    height:		26px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1263px -228px;
+}
+
+.ui32last
+{
+    display:		inline-block;
+    width:		30px;
+    height:		26px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1293px -228px;
+}
+
+.ui32new
+{
+    display:		inline-block;
+    width:		22px;
+    height:		31px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1831px -201px;
+}
+
+.ui32next
+{
+    display:		inline-block;
+    width:		24px;
+    height:		26px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1323px -228px;
+}
+
+.ui32prev
+{
+    display:		inline-block;
+    width:		24px;
+    height:		26px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1347px -228px;
+}
+
+.ui32save
+{
+    display:		inline-block;
+    width:		32px;
+    height:		31px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1853px -201px;
+}
+
+.ui32search
+{
+    display:		inline-block;
+    width:		32px;
+    height:		31px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1885px -201px;
+}
+
+.ui32trash
+{
+    display:		inline-block;
+    width:		24px;
+    height:		29px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1937px -201px;
+}
+
+.ui32valid
+{
+    display:		inline-block;
+    width:		32px;
+    height:		25px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1371px -228px;
+}
+
+.ui64alert
+{
+    display:		inline-block;
+    width:		63px;
+    height:		52px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1672px -201px;
+}
+
+.ui64bulb
+{
+    display:		inline-block;
+    width:		40px;
+    height:		61px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2530px -194px;
+}
+
+.ui64edit
+{
+    display:		inline-block;
+    width:		42px;
+    height:		62px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2488px -194px;
+}
+
+.ui64error
+{
+    display:		inline-block;
+    width:		64px;
+    height:		63px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3402px 0px;
+}
+
+.ui64first
+{
+    display:		inline-block;
+    width:		58px;
+    height:		51px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1423px -205px;
+}
+
+.ui64last
+{
+    display:		inline-block;
+    width:		58px;
+    height:		51px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1481px -205px;
+}
+
+.ui64new
+{
+    display:		inline-block;
+    width:		42px;
+    height:		61px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2570px -194px;
+}
+
+.ui64next
+{
+    display:		inline-block;
+    width:		46px;
+    height:		51px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1539px -205px;
+}
+
+.ui64prev
+{
+    display:		inline-block;
+    width:		46px;
+    height:		51px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1585px -205px;
+}
+
+.ui64save
+{
+    display:		inline-block;
+    width:		62px;
+    height:		61px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2612px -194px;
+}
+
+.ui64search
+{
+    display:		inline-block;
+    width:		62px;
+    height:		61px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2674px -194px;
+}
+
+.ui64trash
+{
+    display:		inline-block;
+    width:		48px;
+    height:		57px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3336px -198px;
+}
+
+.ui64valid
+{
+    display:		inline-block;
+    width:		64px;
+    height:		49px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1735px -201px;
+}
+
+.ui128alert
+{
+    display:		inline-block;
+    width:		125px;
+    height:		103px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3072px 0px;
+}
+
+.ui128bulb
+{
+    display:		inline-block;
+    width:		80px;
+    height:		120px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2992px 0px;
+}
+
+.ui128edit
+{
+    display:		inline-block;
+    width:		84px;
+    height:		123px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2744px -126px;
+}
+
+.ui128error
+{
+    display:		inline-block;
+    width:		126px;
+    height:		126px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2744px 0px;
+}
+
+.ui128first
+{
+    display:		inline-block;
+    width:		115px;
+    height:		101px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3131px -103px;
+}
+
+.ui128last
+{
+    display:		inline-block;
+    width:		115px;
+    height:		101px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3197px 0px;
+}
+
+.ui128new
+{
+    display:		inline-block;
+    width:		84px;
+    height:		122px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2828px -126px;
+}
+
+.ui128next
+{
+    display:		inline-block;
+    width:		90px;
+    height:		101px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3246px -101px;
+}
+
+.ui128prev
+{
+    display:		inline-block;
+    width:		90px;
+    height:		101px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3312px 0px;
+}
+
+.ui128save
+{
+    display:		inline-block;
+    width:		122px;
+    height:		121px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2870px 0px;
+}
+
+.ui128search
+{
+    display:		inline-block;
+    width:		123px;
+    height:		121px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2912px -121px;
+}
+
+.ui128trash
+{
+    display:		inline-block;
+    width:		96px;
+    height:		114px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3035px -120px;
+}
+
+.ui128valid
+{
+    display:		inline-block;
+    width:		128px;
+    height:		97px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -3336px -101px;
+}
+
+.ui256alert
+{
+    display:		inline-block;
+    width:		249px;
+    height:		205px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1423px 0px;
+}
+
+.ui256bulb
+{
+    display:		inline-block;
+    width:		159px;
+    height:		239px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1072px 0px;
+}
+
+.ui256edit
+{
+    display:		inline-block;
+    width:		166px;
+    height:		246px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -251px 0px;
+}
+
+.ui256error
+{
+    display:		inline-block;
+    width:		251px;
+    height:		251px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat 0px 0px;
+}
+
+.ui256first
+{
+    display:		inline-block;
+    width:		229px;
+    height:		201px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1672px 0px;
+}
+
+.ui256last
+{
+    display:		inline-block;
+    width:		229px;
+    height:		201px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1901px 0px;
+}
+
+.ui256new
+{
+    display:		inline-block;
+    width:		168px;
+    height:		243px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -417px 0px;
+}
+
+.ui256next
+{
+    display:		inline-block;
+    width:		179px;
+    height:		201px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2130px 0px;
+}
+
+.ui256prev
+{
+    display:		inline-block;
+    width:		179px;
+    height:		201px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2309px 0px;
+}
+
+.ui256save
+{
+    display:		inline-block;
+    width:		242px;
+    height:		242px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -585px 0px;
+}
+
+.ui256search
+{
+    display:		inline-block;
+    width:		245px;
+    height:		241px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -827px 0px;
+}
+
+.ui256trash
+{
+    display:		inline-block;
+    width:		192px;
+    height:		228px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -1231px 0px;
+}
+
+.ui256valid
+{
+    display:		inline-block;
+    width:		256px;
+    height:		194px;
+    background:	url( '../img/mnk-ui.png' ) no-repeat -2488px 0px;
+}
+
+

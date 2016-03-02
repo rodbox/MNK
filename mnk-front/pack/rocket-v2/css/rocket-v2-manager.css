@@ -1,0 +1,778 @@
+div.rocket-param-edit h2 {
+    font-size: 1.4em;
+    margin: 0px;
+    padding: 0px;
+}
+div.rocket-param-edit h2 .small {
+    display: inline-block;
+    font-size: 0.6em;
+    margin-left: -26px;
+    text-align: right;
+    position: absolute;
+    width: 20px;
+}
+div.rocket-param-edit {
+    background-color: #fff;
+    position: absolute;
+    width: 250px;
+}
+.rocket-param-model h2 input { max-width: 200px }
+table.param-edit tbody tr td:first-child {
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=5)';
+    -khtml-opacity: 0.5;
+    filter: alpha(opacity=5):-moz-opacity     : 0.5;
+    font-size: 0.8em;
+    opacity: 0.5;
+    width: 100px;
+}
+.title-param { margin-left: 24px }
+table.param-edit tbody tr td ul li { font-size: 0.8em !important }
+div.toggle-next.toggle-next-open,
+dt.toggle-mini.toggle-mini-open { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/minus.svg') }
+div.toggle-next,
+dt.toggle-mini {
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/plus.svg');
+    background-repeat: no-repeat;
+}
+dt.toggle-mini {
+    background-position: 3px center;
+    background-size: 6px 6px;
+    padding-left: 12px;
+}
+div.toggle-next {
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/plus.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+    float: left;
+    height: 12px;
+    margin-top: 10px;
+    /* margin-right: 12px; */
+    margin-left: 3px;
+    position: absolute;
+    /* margin-left: -12px; */
+    width: 24px;
+}
+div.rocket-param-edit h2 {
+    background-position: 195px center;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+}
+div.rocket-param-edit .form-toggle{margin-bottom: 5px;}
+div.rocket-param-edit.rocket-param-free h2 { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/move.svg') }
+div.rocket-param-edit.rocket-param-sibling h2 { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/arrow-right11.svg') }
+div.rocket-param-edit.rocket-param-child h2 { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/arrow-down-right6.svg') }
+div.rocket-param-edit.rocket-param-free .rocket-param-hook { background-color: #e67e22 }
+div.rocket-param-edit.rocket-param-sibling .rocket-param-hook { background-color: #2980b9 }
+div.rocket-param-edit.rocket-param-child .rocket-param-hook { background-color: #9abf88 }
+div.rocket-param-edit .param-edit { border-bottom: 4px solid #ccc }
+div.rocket-param-edit.rocket-param-free .param-edit { border-color: #e67e22 }
+div.rocket-param-edit.rocket-param-sibling .param-edit { border-color: #2980b9 }
+div.rocket-param-edit.rocket-param-child .param-edit { border-color: #9abf88 }
+div.rocket-param-edit .rocket-param-hook.rocket-param-hook-disabled {
+    /*background-color: #ccc;*/
+    display: none !important;
+}
+
+
+
+div.rocket-param-edit .rocket-param-hook.rocket-param-hook-to-child-single { display: none }
+div.rocket-param-edit.rocket-child .rocket-param-hook.rocket-param-hook-to-child-single {
+    display: inline;
+    float: right;
+    height: 24px;
+    width: 8px;
+    width: 4px !important;
+    height: 24px !important;
+    background-color: rgb(142, 68, 173)!important;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.rocket-child ol.data li:hover .rocket-param-hook-to-child-single,
+.rocket-child ol.data li .onHookStart.rocket-param-hook-to-child-single { width: 8px !important }
+.rocket-param-hook {
+    height: 32px;
+    width: 16px;
+    position: absolute;
+}
+/*.onAltMaj .rocket-param-hook.onValid:after {
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/checkmark3.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    content: "";
+    height: 36px;
+    margin-left: 12px;
+    position: absolute;
+    width: 16px;
+}*/
+.rocket-param-hook-to-parent {
+    -webkit-box-shadow: inset -10px 0 0 -5px rgba(0,0,0,0.1);
+    box-shadow: inset -10px 0 0 -5px rgba(0,0,0,0.1);
+    margin-left: -16px;
+    margin-top: 4px;
+}
+.rocket-param-hook-to-child {
+    -webkit-box-shadow: inset 10px 0 0 -5px rgba(0,0,0,0.1);
+    box-shadow: inset 10px 0 0 -5px rgba(0,0,0,0.1);
+    color: rgba(0, 0, 0, 0.498039);
+    font-size: 0.5em;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 250px;
+    margin-top: -36px;
+}
+.onHookStart,
+.onHookFinish {
+    -webkit-box-shadow: inset 0 0 20px -5px #000000;
+    box-shadow: inset 0 0 20px -5px #000000;
+}
+.bg-url.ico-16 {
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/link.svg');
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    padding-left: 25px;
+}
+.sub-menu-top {
+    left: 0px;
+    padding-left: 45px;
+    position: fixed;
+    top: 38px;
+    width: 100%;
+    z-index: 590; height: 36px;   background-color: #2b2b2b;
+}
+.sub-menu-top .svg-ui{ margin: 10px;}
+.sub-menu-top ul {
+
+    float: left;
+    margin-right: 1px;
+}
+.sub-menu-top ul li {
+    float: left;
+    min-width: 32px;
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+}
+.sub-menu-top ul li span.menu-title {
+    height: 42px;
+    line-height: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sub-menu-top ul li { display: inline;  vertical-align: top;}
+.sub-menu-top ul li a {
+    display: inline-block;
+
+    color: #fff;
+  /*  line-height: 16px;*/
+    /*height: 16px;*/
+    /*padding: 5px;*/
+    /*width: 32px;*/
+
+
+
+}
+.sub-menu-top ul li a .svg-ui svg{ display: inline-block;
+       -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=30)';
+        filter         : alpha(opacity=30):
+        -moz-opacity     : 0.30;
+        -khtml-opacity     : 0.30;
+        opacity     : 0.30;}
+.sub-menu-top ul li a:hover,
+.sub-menu-top ul li.toggled ul li a:hover,
+.sub-menu-top ul li a.toggled.toggled-on:hover,
+.sub-menu-top ul li.toggled:hover { background-color: rgba(255,255,255,0.05);}
+
+.sub-menu-top ul li a.disabled:hover {
+    background-color: transparent !important;
+    cursor: not-allowed;
+}
+.sub-menu-top ul li a.toggled.toggled-on,
+.sub-menu-top ul li.toggled.toggled-on,
+.sub-menu-top ul li.toggled.toggled-on ul,
+.menu-mini a.toggled-on {
+    -webkit-box-shadow: inset 0 0 20px -5px rgba(0,0,0,0.2);
+   background-color: #646660;
+    box-shadow: inset 0 0 20px -5px rgba(0,0,0,0.2);
+}
+.sub-menu-top ul li a.toggled.toggled-on:after {
+    margin-top: -6px;
+    background-color: #000;
+    content: " ";
+    display: block;
+    height: 4px;
+    position: absolute;
+    width: 36px;
+}
+.sub-menu-top ul li ul li { display: block }
+
+/*.sub-menu-top ul li.toggled.toggled-on:after {content: " "; background-color: #646660; height: 15px; width: 36px;}*/
+.sub-menu-top ul li.toggled {
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/arrow-down2.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+}
+.sub-menu-top ul li.toggled ul {
+    display: none;
+    margin-left: 0px;
+    margin-top: -2px;
+    position: absolute;
+}
+
+.sub-menu-top ul li.toggled ul li a:hover {
+   /* background-color: rgba(0,0,0,0.2) !important;
+    background-color: transparent;*/
+}
+.sub-menu-top ul li.toggled.toggled-on ul { display: block }
+.rocket-param-edit.onHoverDrop { background-color: rgba(36,36,36,0.15) }
+ol.data li input {
+    border: 0px !important;
+    padding: 0px;
+    /*margin-left: 5px;*/
+    width: 80%;
+    background-color: transparent;
+    padding: 5px;
+}
+ol.data li:last-child input { }
+ol.data li.onParamSelect,
+ol.data li.onParamSelect input,
+ol.data li.onParamSelect:before {
+    background-color: #ffe972;
+    color: #ff892f;
+    font-weight: bolder;
+}
+ol.data {
+    counter-reset: repas;
+    padding: 0px;
+    margin: 0px;
+    border-left: 5px solid rgba(0,0,0,0.15);
+}
+/* on initialise et nomme un compteur */
+ol.data li {
+    list-style-type: none;
+    counter-increment: repas;
+    /* on incrémente le compteur à chaque nouveau li */
+    margin: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.05)!important;
+}
+ol.data li:before {
+    content: counter(repas);
+    /* on affiche le compteur */
+    vertical-align: middle;
+    width: 8%;
+    text-align: right;
+    display: inline-table;
+    font-weight: bolder;
+    font-size: 1.1em;
+    height: 100%;
+    padding: 5px;
+    color: #ccc;
+}
+#feedback { font-size: 1.4em }
+#selectable .ui-selecting { background: #FECA40 }
+#selectable .ui-selected {
+    background: #F39814;
+    color: white;
+}
+#selectable .ui-selected-toggled { background: #8188f3 !important }
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+#selectable li {
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1.4em;
+    height: 18px;
+}
+div.ui-selectable-helper.ui-selectee {
+    background-color: rgba(10, 20, 0, 0.15) !important;
+    /*background-color: rgba(0, 0, 0, 0.95) !important;*/
+    border: none !important;
+    position: fixed;
+}
+textarea.data-speed-add {
+    width: 230px;
+    height: 64px;
+    margin: 0px;
+    padding: 5px;
+    border: 0px !important;
+    background-color: rgba(10, 20, 0, 0.05) !important;
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/list.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 16px 16px;
+}
+textarea.data-func-edit {
+    width: 230px;
+    height: 64px;
+    margin: 0px;
+    padding: 5px;
+    border: 0px !important;
+    background-color: rgba(10, 20, 0, 0.05) !important;
+    background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/func.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+}
+textarea.inValue,
+textarea.data-func-edit:focus,
+textarea.data-speed-add:focus {
+    background-image: none;
+    background-color: rgba(10, 20, 0, 0.02) !important;
+}
+.menu-mini {
+    background-color: rgba(36,36,36,0.02);
+    height: 32px;
+}
+.mnk-tabs-list input {
+    width: 202px;
+    border: 0px;
+    border-bottom: 1px solid rgba(36,36,36,0.1);
+    background-color: rgba(36,36,36,0.02);
+}
+.menu-mini ul {
+    padding: 0px;
+    margin: 0px;
+}
+.menu-mini ul li.to-right {float:right; margin-right:16px;}
+.menu-mini ul li {
+    display: inline;
+    height: 16px;
+    width: 16px;
+}
+
+.menu-mini ul li a {
+    line-height: 32px;
+    height: 16px;
+    width: 16px;
+    padding: 8px;
+}
+.menu-mini ul li a.toggled-on {
+    content: "" position : absolute;
+    width: 16px;
+    height: 4px;
+    background-color: rgba(0,0,0,0.2);
+}
+.menu-mini ul li .form-toggle {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+div.type-id {
+    position: absolute;
+    margin-top: -28px;
+    height: 25px;
+    margin-left: 3px;
+    font-size: 10px;
+    width: 15px;
+    color: #6e6e6e;
+}
+.type-1 input.type-title {
+    border: 0px;
+    background-color: transparent;
+    margin-left: 24px;
+    color: #fff;
+}
+.type-1 h2 {background-color: #2980b9}
+
+.onHoverDrop.type-1 h2 {background-color: #1c5d87}
+
+.type-2 input.type-title,.type-3 input.type-title,.type-4 input.type-title {
+    border: 0px;
+    background-color: transparent;
+    margin-left: 15px;
+    margin-bottom: 0px !important;
+    font-size: 12px !important;
+    font-weight: bolder;
+}
+.rocket-param-edit.onParamSelect.super-zindex { z-index: 999 !important }
+.rocket-param-edit.onParamSelect,
+.rocket-param-edit.super-zindex { z-index: 990 !important }
+
+
+
+.rocket-param-edit .mnk-tabs-list { padding: 5px }
+
+
+.type-1:before {
+    content: " ";
+    width : 32px;
+    z-index: 1;
+    height: 32px;
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/func.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 24px 24px;
+    position: absolute;
+    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=3)';
+    filter         : alpha(opacity=3):
+    -moz-opacity     : 0.3;
+    -khtml-opacity     : 0.3;
+    opacity     : 0.3;
+    rotation: 5px;
+}
+
+.sub-menu-left .input-bt-num {
+    position: absolute;
+    margin: 0px !important;
+    margin-top: -8px !important;
+}
+.sub-menu-left .range-div {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -moz-transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg) !important;
+    -o-transform: rotate(90deg) !important;
+    -ms-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
+    width: 290px;
+    margin-left: 45px !important;
+    padding: 0px !important;
+}
+.menu-move {
+    text-align: center;
+    display: inline-block;
+}
+.menu-move a.move {
+    background-color: #fff;
+    line-height: 12px;
+    display: inline;
+    padding: 4px;
+    width: 12px;
+}
+.menu-move a.move:hover { background-color: rgba(255,255,255,0.6) }
+.menu-move a.move-reset { padding: 8px }
+
+.sub-menu-left {
+    position: fixed !important;
+    display: inline;
+    width: 75px;
+    z-index: 500;
+    top: 100px;
+    text-align: center;
+    left: 47px;
+}
+.sidebar-hidden.navbar-hidden .sub-menu-left { left: 7px; top:50px; }
+/*.type-1 .rocket-param-hook-to-parent { margin-top: 45px; position: absolute;}*/
+.meta-count {
+    position: absolute;
+    padding: 3px;
+    font-size: 0.7em;
+    width: 12px;
+    height: 12px;
+    margin-top: -14px;
+    margin-left: 85px;
+    line-height: 12px;
+    text-align: right;
+
+}
+a.toggle-me {
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/minus.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 8px 8px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 234px;
+    z-index: 990;
+    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=2)';
+    filter         : alpha(opacity=2): -moz-opacity     : 0.2;
+    -khtml-opacity     : 0.2;
+    opacity     : 0.2;
+}
+a.group-linked-toggle{
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/circle.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 8px 8px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 220px;
+    z-index: 990;
+    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=4)';
+    filter         : alpha(opacity=4): -moz-opacity     : 0.4;
+    -khtml-opacity     : 0.4;
+    opacity     : 0.4;
+}
+.toggle-group a.group-linked-toggle{background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/circle-small.svg'); z-index: 800; }
+
+
+.toggle-me-on a.toggle-me { background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/plus.svg'); z-index: 800; }
+a.toggle-me:hover { text-decoration: none !important }
+.toggle-me-on .toggle-next-target {
+    height: 0px;
+    overflow: hidden;
+}
+div.rocket-param-edit.rocket-child.toggle-me-on .rocket-param-hook-to-child-single {
+    position: absolute;
+    top: 0px;
+    height: 8px !important;
+    margin-top: -2px;
+}
+.toggle-me-on .menu-mini { display: none }
+.menu-mini a svg { display: inline;}
+
+
+.type-1 .rocket-param-hook {
+    height: 32px !important;
+}
+div.rocket-param-edit textarea{
+    resize:vertical;
+}
+
+
+
+div.rocket-param-edit.type-stay .rocket-param-hook,
+
+div.rocket-param-edit.type-pause .rocket-param-hook{
+    margin-left:0px !important;
+    margin-top:0px !important;
+    -webkit-box-shadow: 0 0 0 0 #FFFFFF;
+    box-shadow: 0 0 0 0 #FFFFFF;  width: 64px; height: 64px; overflow: visible;
+
+
+}
+
+div.rocket-param-edit.type-stay,
+div.rocket-param-edit.type-pause
+
+{
+    width: 48px; height: 48px; background-color: #555555;
+    overflow: visible;
+    padding: 0px;
+    -webkit-border-radius: 50% !important;
+border-radius: 50% !important;
+border: 5px solid #474747;
+}
+
+
+
+
+
+div.rocket-param-edit.type-stay svg,
+div.rocket-param-edit.type-pause svg {
+    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=60)';
+    filter         : alpha(opacity=60):
+    -moz-opacity     : 0.60;
+    -khtml-opacity     : 0.60;
+    opacity     : 0.60;
+
+    margin-top: -6px;
+    margin-left: -6px;
+    width:32px;
+    height: 32px;
+
+}
+
+
+/*div.rocket-param-edit.type-0 input.input-ico{margin-left: -10px;}
+div.rocket-param-edit.type-0 .rocket-param-hook-to-parent{ margin-left: -16px; }
+div.rocket-param-edit.type-0 .toggle-me{ margin-left: 127px; margin-top: -32px;}
+div.rocket-param-edit.type-0 .bt-resize{display: none;}
+div.rocket-param-edit.type-0 .group-linked-toggle{ margin-left: 113px; margin-top: -32px;}
+div.rocket-param-edit.type-0 .rocket-param-hook-to-child{ margin-left: 144px; margin-top: -38px;}
+div.rocket-param-edit.type-0 .rocket-param-meta{ margin-left: 128px;}
+div.rocket-param-edit.type-0{ width: 144px;}
+div.rocket-param-edit.type-0 input{ width: 96px;border:none; font-weight: bolder;background-color: transparent !important;z-index: 2;margin-left: 32px; color: rgba(255,255,255,0.4);}*/
+.type-0:before {
+    content: " ";
+    width : 32px;
+    z-index: 1;
+    height: 32px;
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/folder4.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 16px 16px;
+    position: absolute;z-index: 1;
+    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=3)';
+    filter         : alpha(opacity=3):
+    -moz-opacity     : 0.3;
+    -khtml-opacity     : 0.3;
+    opacity     : 0.3;
+    -moz-transform: scale(1.2) rotate(-15deg);
+    -webkit-transform: scale(1.2) rotate(-15deg);
+    -o-transform: scale(1.2) rotate(-15deg);
+    -ms-transform: scale(1.2) rotate(-15deg);
+    transform: scale(1.2) rotate(-15deg);
+}
+
+
+
+
+div.rocket-param-edit.type-book input.input-ico{margin-left: -10px;}
+div.rocket-param-edit.type-book .rocket-param-hook-to-parent{ margin-left: -16px; }
+div.rocket-param-edit.type-book .toggle-me{ margin-left: 127px; margin-top: -32px;}
+div.rocket-param-edit.type-book .bt-resize{display: none;}
+div.rocket-param-edit.type-book .group-linked-toggle{ margin-left: 113px; margin-top: -32px;}
+div.rocket-param-edit.type-book .rocket-param-hook-to-child{ margin-left: 144px; margin-top: -38px;}
+div.rocket-param-edit.type-book .rocket-param-meta{ margin-left: 128px;}
+div.rocket-param-edit.type-book{ width: 144px;}
+div.rocket-param-edit.type-book input{ width: 96px;border:none; font-weight: bolder;background-color: transparent !important;z-index: 2;margin-left: 32px; color: rgba(255,255,255,0.4);}
+.book:before {
+    content: " ";
+    width : 32px;
+    z-index: 1;
+    height: 32px;
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/book.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 16px 16px;
+    position: absolute;z-index: 1;
+    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=3)';
+    filter         : alpha(opacity=3):
+    -moz-opacity     : 0.3;
+    -khtml-opacity     : 0.3;
+    opacity     : 0.3;
+    -moz-transform: scale(1.2) rotate(-15deg);
+    -webkit-transform: scale(1.2) rotate(-15deg);
+    -o-transform: scale(1.2) rotate(-15deg);
+    -ms-transform: scale(1.2) rotate(-15deg);
+    transform: scale(1.2) rotate(-15deg);
+}
+
+
+div.rocket-param-edit .rocket-param-hook.hook-lock.rocket-param-hook-to-parent:after{ margin-left: -12px;}
+div.rocket-param-edit .rocket-param-hook.hook-lock.rocket-param-hook-to-child:after{ margin-left: 8px;}
+div.rocket-param-edit .rocket-param-hook.hook-lock:after {
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/lock4.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 8px 8px !important;
+    position: absolute !important;
+    height: 16px;
+    width: 16px;
+    content: " " !important;
+}
+
+.mnk-tabulator {
+    -webkit-box-shadow: 0 10px 20px -5px rgba(0,0,0,0.8);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,0.8);
+}
+.bt-resize {
+    position: absolute;
+    margin-top: 8px;    -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=35)';
+    filter         : alpha(opacity=35):
+    -moz-opacity     : 0.35;
+    -khtml-opacity     : 0.35;
+    opacity     : 0.35;
+}
+.type-1 .bt-resize {
+    margin-left: -10px;-ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+    filter         : alpha(opacity=50):
+    -moz-opacity     : 0.50;
+    -khtml-opacity     : 0.50;
+    opacity     : 0.50;
+}
+ body.onResizeMode,.onResize *,.bt-resize{
+    cursor: ew-resize !important;
+}
+
+div.rocket-param-edit.toggle-group{
+border-right: 8px solid #000;
+}
+div.rocket-param-edit.toggle-group .rocket-param-hook.rocket-param-hook-to-child{display: none;}
+.rocket-param-meta-count{ font-weight: bolder;    background-color: #000;
+    padding: 3px; color: #fff; font-size: 0.7em;}
+.mini-counter{ position: absolute;
+margin-top: 32px; background-color: #242424; color: #fff; margin-top: 26px; min-width: 12px; font-size: 1em; min-height: 12px; padding: 3px; line-height: 12px; margin-left: -6px; font-size: 0.6em;}
+input[name=rocket-search-param]{ background-color: transparent !important; border: none; border-bottom: 1px solid #ccc; width: 0px; margin-top: 5px; margin-bottom: 0px;}
+a.rocket-search-param-meta-search-action{
+    margin-right: 5px;
+    display: none;
+}
+div.layer.protect-on:after{
+    content:" ";
+    background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/warning.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: 16px 16px !important;
+    position: fixed;
+    right :5px;
+    bottom: 5px;
+    width: 16px;
+    height: 16px;
+    z-index: 999;
+        -ms-filter     : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=5)';
+        filter         : alpha(opacity=5):
+        -moz-opacity     : 0.5;
+        -khtml-opacity     : 0.5;
+        opacity     : 0.5;
+}
+
+
+
+
+
+input[name=rocket-search-param]{color: #fff;}
+div.svg-ui.svg-32,div.svg-ui.svg-32 svg{max-width: 32px !important; max-height: 32px !important;background: transparent !important;}
+div.svg-ui.svg-16,div.svg-ui.svg-16 svg{max-width: 16px !important; max-height: 16px !important;background: transparent !important;}
+div.svg-ui.svg-24,div.svg-ui.svg-24 svg{max-width: 24px !important; max-height: 24px !important; background: transparent !important;}
+div.rocket-param-edit.onHoverDrop.bg-0{
+    background-color: #bfbfbf !important;
+}
+div.rocket-param-edit.onHoverDrop.bg-1,
+div.rocket-param-edit.onHoverDrop.type-stay,
+div.rocket-param-edit.onHoverDrop.type-pause{background-color: #393939 !important;}
+
+input.input-mini{ width: 45%;}
+
+.data {
+    max-height: 300px;
+ overflow-x: scroll; }
+
+ .onLight{
+   -webkit-box-shadow: 0 0 70px 20px rgba(211,84,0,0.5);
+box-shadow: 0 0 70px 20px rgba(211,84,0,0.5);
+ }
+div.viewer-list input{ width: 70%;}
+div.viewer-list a{ width: 20%;}
+
+.table-pointer input{
+    width: 90% !important;
+}
+.add-tbody-line:before{content: " ";width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 4px 6px 4px;
+border-color: transparent transparent #000000 transparent; position: absolute; margin-top: -10px;
+}
+.add-tbody-line{display: none; position: absolute; padding: 5px; background-color: rgba(0,0,0,0.8); color: #fff; font-size: 0.8em; }
+.add-tbody-line:hover{ text-decoration: none;color: #fff;background-color: rgba(0,0,0,0.98);}
+table:hover .add-tbody-line{display: inline-block; }
+.mnk-tab table { margin-bottom: 5px;width: 100%;}
+.mnk-tab table input[type=checkbox]{display: inline;width: 16px;}
+
+.inline {display: inline !important;}
+
+.type-elem input[type=checkbox],.type-elem input[type=radio]{display: inline !important; width:25px;}
+table.table-mini td,table.table-mini th{width: 33% !important;}
+table.table-mini td input,table.table-mini td div.preview{width: 85% !important;}
+
+/*.type-book{height: 128px !important;  width: 128px !important;  background-color: #fff; background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/book.svg'); background-repeat:no-repeat; background-position: center center;background-size: 48px 48px; }
+
+
+div.rocket-param-edit.onHoverDrop.type-book {background-color: #bababa !important;background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/book.svg');}
+
+*/
+
+
+
+
+
+
+
+
+
+

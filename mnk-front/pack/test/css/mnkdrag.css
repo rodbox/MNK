@@ -1,0 +1,18 @@
+.elem {
+   float: left;
+   border: 1px dashed #888;
+   background: #EEE;
+   text-align: center;
+   padding: 20px;
+   margin: 0 10px 10px 0;
+   }
+.dropped {
+   background-color: #EBC;
+   border-color: #B89;
+   }   
+.active {  
+   background-color: #CEB;
+   border-color: #9B8;
+   }
+	
+}

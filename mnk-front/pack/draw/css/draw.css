@@ -1,0 +1,26 @@
+canvas{
+
+	/* border: 1px solid #ccc; */
+	/* background-image: url('../img/handmadepaper.png'); */
+
+}
+textarea#tool-script{
+	width: 98%;
+	min-height: 400px;
+}
+canvas#tool-editor{	width: 600px; height: 800px;}
+.draw-menu li { float: left;}
+
+.absolute{ position: absolute;}
+.static{ position: static;}
+.margin-top-32{ margin-top: 32px;}
+.margin-right-16{ margin-top: 16px;}
+
+.modal { text-align: left;}
+.tool-editor{
+
+
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding:20px;
+}

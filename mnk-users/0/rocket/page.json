@@ -1,0 +1,38 @@
+
+{"name":"page",
+"func" : "function (param1,param2){window.location = 'http://metronic.excentrik.fr/index.php?page='+param1+'/'+param2+'&type=pack-page';}",
+"param1"	: "",
+"param2"	: "",
+"nbParam":"2",
+"params":
+[
+	{"ref"	:"456","name"	:"admin","param":["admin-index"]},
+	{"ref"	:"456","name"	:"basket-manager","param"	:["basket-manager-index"]},
+	{"ref"	:"456","name"	:"calendar","param"	:["calendar-index"]},
+	{"ref"	:"456","name"	:"carret-position","param"	:["carret-position-index","index.html"]},
+	{"ref"	:"456","name"	:"circle-nav","param"	:["circle-nav-index"]},
+	{"ref"	:"456","name"	:"css-circle-pos","param"	:["css-circle-pos-index"]},
+	{"ref"	:"456","name"	:"css-color-generator","param"	:["css-color-generator-index"]},
+	{"ref"	:"456","name"	:"css-grid-generator","param"	:["css-grid-generator-index"]},
+	{"ref"	:"456","name"	:"css-webfont","param"	:["css-webfont-index"]},
+	{"ref"	:"456","name"	:"dico","param"	:["dico-index","dico-view"]},
+	{"ref"	:"456","name"	:"doc","param"	:["doc-constant","doc-core","doc-index","doc-mod","doc-ui","documentation_index"]},
+	{"ref"	:"456","name"	:"draw","param"	:["draw-index","draw-normal"]},
+	{"ref"	:"456","name"	:"pack-manager","param"	:["pack-labo","pack-manager-index","pack-page-list"]},
+	{"ref"	:"456","name"	:"photos-manager","param"	:["gal-list-public","my-gal","photos-manager-index"]},
+	{"ref"	:"456","name"	:"projectX","param"	:["coment","constat","contact","gal","index","presentation","projectX-index","toto"]},
+	{"ref"	:"456","name"	:"rocket","param"	:["rocket-index","rocket-manager"]},
+	{"ref"	:"456","name"	:"root","param"	:["menu-manager","pack-index","root-index"]},
+	{"ref"	:"456","name"	:"section","param"	:["preview","section-index"]},
+	{"ref"	:"456","name"	:"site-manager","param"	:["db-dump","site-create","site-explorer","site-manager-index"]},
+	{"ref"	:"456","name"	:"snippet-manager","param"	:["snippet-manager-index"]},
+	{"ref"	:"456","name"	:"test","param"	:["html-parse","key-code","plupload","regexp","test-index","test-json","toggle","lister"]},
+	{"ref"	:"456","name"	:"test-nestable","param"	:["test-nestable-index"]},
+	{"ref"	:"456","name"	:"theme-manager","param"	:["theme-manager-index"]},
+	{"ref"	:"456","name"	:"thief","param"	:["thief-index"]},
+	{"ref"	:"456","name"	:"toodoo","param"	:["toodoo-index"]},
+	{"ref"	:"456","name"	:"uifinder","param"	:["ui-svg","uifinder-index"]},
+	{"ref"	:"456","name"	:"user","param"	:["redefine","user-index","user_account","user_connect","user_profile"]}]
+}
+
+

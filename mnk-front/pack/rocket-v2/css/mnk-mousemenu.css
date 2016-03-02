@@ -1,0 +1,220 @@
+.mouse-menu{
+	position: fixed;
+	background-color: rgba(255,255,255,0.35);
+	width: 320px; height: 320px;
+
+-webkit-border-radius: 50%!important;
+border-radius: 50% !important;
+	display: none;
+	z-index: 700;
+}
+.mouse-menu .center-close{
+	/*background-image : url('http://metronic.excentrik.fr/mnk-include/core/img/svg/close-484848.svg'); background-repeat:no-repeat; background-position: center center;background-size: 16px 16px;*/
+	width: 72px;height: 72px;position: absolute;
+
+
+	-webkit-border-radius: 50%!important;
+border-radius: 50% !important;
+margin-left: 129px;margin-top: 129px;
+}
+
+
+.mouse-menu .mouse-menu-list{
+
+}
+.mouse-menu-bg{background-color: rgba(0,0,0,0.15);
+	width: 220px;
+	margin-left: 50px;
+	margin-top: 50px;
+	height: 220px; 	-webkit-border-radius: 50%!important;
+border-radius: 50% !important; position: absolute;
+z-index: 900;
+}
+
+
+
+
+.mouse-menu .mouse-menu-list{
+	position: absolute;
+
+
+margin-top: 18px;
+margin-left: 18px;
+z-index: 910;
+
+}
+ .mouse-menu .svg-ui{
+ 	display: inherit;
+ 	overflow:  visible;
+ 	margin: 0px;
+ }
+.mouse-menu .mouse-menu-list .mouse-menu-link {
+width: 32px; height: 32px;
+
+text-align: center;
+
+}
+
+
+.mouse-menu-link a{
+	/*line-height: 32px; width: 32px; height: 32px;*/
+}
+.mouse-menu-link a:hover{ }
+
+
+.mouse-menu-closer{ 
+	display: none;
+	width: 90px;
+ 	height: 90px; 
+ 	background-color: #242424; 
+ 	color: #fff; 
+ 	position: absolute;
+	-webkit-border-radius: 50%!important;
+	border-radius: 50% !important;
+ 	margin-left: 115px;
+ 	margin-top: 115px;
+ 	text-align: center;
+ }
+ .mouse-menu-closer svg{
+ 	margin-left: 31px;
+ 	margin-top: 31px;
+ 		-ms-filter 	: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=40)';
+ 		filter 		: alpha(opacity=40):
+ 		-moz-opacity 	: 0.40;
+ 		-khtml-opacity 	: 0.40;
+ 		opacity 	: 0.40;
+ }
+
+/* ############### Infos ############### */
+/* 
+/*  Radius	 : 85px
+/*  Elements	 : 6
+/*  Size Elements : 38px
+/*  Position	 : 
+/*  Angle	 : 0
+/* 
+/* ###################################### */
+
+
+
+
+/* ############### Circle ############### */
+
+
+.pos_0,
+.pos_1,
+.pos_2,
+.pos_3,
+.pos_4,
+.pos_5,
+.pos_6 {
+	position 	: absolute;
+}
+.pos_1 
+{
+ 	 margin-top	: 0px;
+	 margin-left	: 85px;
+}
+.pos_2 
+{
+ 	 margin-top	: 74px;
+	 margin-left	: 43px;
+}
+.pos_3 
+{
+ 	 margin-top	: 74px;
+	 margin-left	: -42px;
+}
+.pos_4 
+{
+ 	 margin-top	: 1px;
+	 margin-left	: -85px;
+}
+.pos_5 
+{
+ 	 margin-top	: -73px;
+	 margin-left	: -42px;
+}
+.pos_6 
+{
+ 	 margin-top	: -73px;
+	 margin-left	: 43px;
+}
+
+
+/* ###################################### */
+
+
+
+.pos_center{ position: absolute; margin-top: -16px; margin-left: 16px; z-index: 999;}
+/* ############### Infos ############### */
+/* 
+/*  Radius	 : 135px
+/*  Elements	 : 8
+/*  Size Elements : 38px
+/*  Position	 : 
+/*  Angle	 : 0
+/* 
+/* ###################################### */
+
+
+
+
+/* ############### Circle ############### */
+
+
+.sub-pos_0,
+.sub-pos_1,
+.sub-pos_2,
+.sub-pos_3,
+.sub-pos_4,
+.sub-pos_5,
+.sub-pos_6,
+.sub-pos_7,
+.sub-pos_8 {
+	position 	: absolute;
+}
+.sub-pos_1 
+{
+ 	 margin-top	: 0px;
+	 margin-left	: 135px;
+}
+.sub-pos_2 
+{
+ 	 margin-top	: 96px;
+	 margin-left	: 96px;
+}
+.sub-pos_3 
+{
+ 	 margin-top	: 135px;
+	 margin-left	: 1px;
+}
+.sub-pos_4 
+{
+ 	 margin-top	: 96px;
+	 margin-left	: -95px;
+}
+.sub-pos_5 
+{
+ 	 margin-top	: 1px;
+	 margin-left	: -135px;
+}
+.sub-pos_6 
+{
+ 	 margin-top	: -95px;
+	 margin-left	: -95px;
+}
+.sub-pos_7 
+{
+ 	 margin-top	: -135px;
+	 margin-left	: -0px;
+}
+.sub-pos_8 
+{
+ 	 margin-top	: -95px;
+	 margin-left	: 96px;
+}
+
+
+/* ###################################### */
+

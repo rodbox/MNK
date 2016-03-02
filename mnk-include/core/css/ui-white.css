@@ -1,0 +1,1847 @@
+/* QuickSprites - BEGIN - DO NOT REMOVE THIS LINE */
+.check--white-16,
+.reload--white-16,
+.last--white-16,
+.upload--white-16,
+.undo--white-16,
+.document-alt-stroke--white-16,
+.moon-stroke--white-16,
+.pause--white-16,
+.x-alt--white-16,
+.check-alt--white-16,
+.lightbulb--white-16,
+.play--white-16,
+.tag-fill--white-16,
+.key-stroke--white-16,
+.arrow-up--white-16,
+.arrow-up-alt2--white-16,
+.play-alt--white-16,
+.curved-arrow--white-16,
+.arrow-left-alt1--white-16,
+.user--white-16,
+.unlock-stroke--white-16,
+.spin--white-16,
+.at--white-16,
+.arrow-down--white-16,
+.info--white-16,
+.minus-alt--white-16,
+.arrow-left--white-16,
+.arrow-left-alt2--white-16,
+.arrow-up-alt1--white-16,
+.reload-alt--white-16,
+.minus--white-16,
+.arrow-right--white-16,
+.plus--white-16,
+.arrow-right-alt2--white-16,
+.x--white-16,
+.chart-alt--white-16,
+.arrow-right-alt1--white-16,
+.comment-alt2-stroke--white-16,
+.pen-alt2--white-16,
+.cog--white-16,
+.first--white-16,
+.denied--white-16,
+.plus-alt--white-16,
+.camera--white-16,
+.star--white-16,
+.wrench--white-16,
+.arrow-right-alt2--white-24,
+.reload-alt--white-24,
+.star--white-24,
+.arrow-down--white-24,
+.arrow-right-alt1--white-24,
+.document-alt-stroke--white-24,
+.minus--white-24,
+.chart-alt--white-24,
+.moon-stroke--white-24,
+.last--white-24,
+.undo--white-24,
+.pen-alt2--white-24,
+.x--white-24,
+.curved-arrow--white-24,
+.first--white-24,
+.denied--white-24,
+.arrow-left-alt1--white-24,
+.plus-alt--white-24,
+.play--white-24,
+.camera--white-24,
+.cog--white-24,
+.wrench--white-24,
+.spin--white-24,
+.reload--white-24,
+.user--white-24,
+.upload--white-24,
+.info--white-24,
+.x-alt--white-24,
+.arrow-left-alt2--white-24,
+.arrow-right--white-24,
+.check--white-24,
+.check-alt--white-24,
+.lightbulb--white-24,
+.pause--white-24,
+.unlock-stroke--white-24,
+.arrow-up-alt2--white-24,
+.plus--white-24,
+.tag-fill--white-24,
+.arrow-up--white-24,
+.key-stroke--white-24,
+.minus-alt--white-24,
+.comment-alt2-stroke--white-24,
+.arrow-up-alt1--white-24,
+.at--white-24,
+.play-alt--white-24,
+.arrow-left--white-24,
+.denied--white-32,
+.arrow-up-alt2--white-32,
+.check-alt--white-32,
+.lightbulb--white-32,
+.pause--white-32,
+.check--white-32,
+.unlock-stroke--white-32,
+.wrench--white-32,
+.reload--white-32,
+.upload--white-32,
+.x-alt--white-32,
+.cog--white-32,
+.moon-stroke--white-32,
+.arrow-up-alt1--white-32,
+.star--white-32,
+.tag-fill--white-32,
+.document-alt-stroke--white-32,
+.arrow-left-alt1--white-32,
+.at--white-32,
+.undo--white-32,
+.key-stroke--white-32,
+.curved-arrow--white-32,
+.arrow-up--white-32,
+.play-alt--white-32,
+.arrow-right-alt1--white-32,
+.last--white-32,
+.minus-alt--white-32,
+.play--white-32,
+.arrow-right-alt2--white-32,
+.arrow-down--white-32,
+.spin--white-32,
+.chart-alt--white-32,
+.minus--white-32,
+.arrow-left--white-32,
+.arrow-right--white-32,
+.reload-alt--white-32,
+.arrow-left-alt2--white-32,
+.info--white-32,
+.user--white-32,
+.first--white-32,
+.x--white-32,
+.pen-alt2--white-32,
+.camera--white-32,
+.plus--white-32,
+.plus-alt--white-32,
+.comment-alt2-stroke--white-32,
+.first--white-64,
+.denied--white-64,
+.tag-fill--white-64,
+.arrow-up--white-64,
+.camera--white-64,
+.wrench--white-64,
+.minus-alt--white-64,
+.x-alt--white-64,
+.star--white-64,
+.pause--white-64,
+.arrow-up-alt2--white-64,
+.moon-stroke--white-64,
+.play-alt--white-64,
+.check--white-64,
+.unlock-stroke--white-64,
+.undo--white-64,
+.reload--white-64,
+.arrow-left-alt1--white-64,
+.upload--white-64,
+.x--white-64,
+.last--white-64,
+.chart-alt--white-64,
+.key-stroke--white-64,
+.play--white-64,
+.comment-alt2-stroke--white-64,
+.cog--white-64,
+.curved-arrow--white-64,
+.arrow-left--white-64,
+.arrow-up-alt1--white-64,
+.at--white-64,
+.reload-alt--white-64,
+.spin--white-64,
+.arrow-down--white-64,
+.arrow-left-alt2--white-64,
+.pen-alt2--white-64,
+.arrow-right--white-64,
+.info--white-64,
+.user--white-64,
+.plus-alt--white-64,
+.minus--white-64,
+.arrow-right-alt1--white-64,
+.document-alt-stroke--white-64,
+.arrow-right-alt2--white-64,
+.check-alt--white-64,
+.lightbulb--white-64,
+.plus--white-64,
+.last--white-128,
+.first--white-128,
+.minus-alt--white-128,
+.arrow-up-alt1--white-128,
+.upload--white-128,
+.curved-arrow--white-128,
+.lightbulb--white-128,
+.arrow-right-alt1--white-128,
+.reload--white-128,
+.chart-alt--white-128,
+.key-stroke--white-128,
+.arrow-down--white-128,
+.tag-fill--white-128,
+.comment-alt2-stroke--white-128,
+.play--white-128,
+.x-alt--white-128,
+.user--white-128,
+.arrow-left-alt2--white-128,
+.arrow-up--white-128,
+.spin--white-128,
+.info--white-128,
+.pause--white-128,
+.check-alt--white-128,
+.reload-alt--white-128,
+.document-alt-stroke--white-128,
+.plus--white-128,
+.plus-alt--white-128,
+.denied--white-128,
+.minus--white-128,
+.moon-stroke--white-128,
+.cog--white-128,
+.check--white-128,
+.play-alt--white-128,
+.star--white-128,
+.arrow-left--white-128,
+.arrow-right--white-128,
+.arrow-left-alt1--white-128,
+.arrow-right-alt2--white-128,
+.undo--white-128,
+.wrench--white-128,
+.x--white-128,
+.pen-alt2--white-128,
+.arrow-up-alt2--white-128,
+.at--white-128,
+.camera--white-128,
+.unlock-stroke--white-128
+{
+	display:	inline-block;
+	background-repeat:	no-repeat;
+	background-image:	url( '../img/ui-white.png' );
+}
+
+.check--white-16
+{
+	background-position:	-962px -244px;
+	width:	16px;
+	height:	13px;
+}
+
+.reload--white-16
+{
+	background-position:	-4348px -188px;
+	width:	16px;
+	height:	19px;
+}
+
+.last--white-16
+{
+	background-position:	-4356px -21px;
+	width:	16px;
+	height:	16px;
+}
+
+.upload--white-16
+{
+	background-position:	-4204px -227px;
+	width:	16px;
+	height:	21px;
+}
+
+.undo--white-16
+{
+	background-position:	-4356px -37px;
+	width:	16px;
+	height:	16px;
+}
+
+.document-alt-stroke--white-16
+{
+	background-position:	-4332px -96px;
+	width:	16px;
+	height:	21px;
+}
+
+.moon-stroke--white-16
+{
+	background-position:	-4356px -53px;
+	width:	16px;
+	height:	16px;
+}
+
+.pause--white-16
+{
+	background-position:	-770px -171px;
+	width:	64px;
+	height:	84px;
+}
+
+.x-alt--white-16
+{
+	background-position:	-4356px -117px;
+	width:	16px;
+	height:	16px;
+}
+
+.check-alt--white-16
+{
+	background-position:	-4356px -226px;
+	width:	16px;
+	height:	16px;
+}
+
+.lightbulb--white-16
+{
+	background-position:	-4188px -227px;
+	width:	16px;
+	height:	25px;
+}
+
+.play--white-16
+{
+	background-position:	-4340px -117px;
+	width:	16px;
+	height:	21px;
+}
+
+.tag-fill--white-16
+{
+	background-position:	-4356px -242px;
+	width:	16px;
+	height:	16px;
+}
+
+.key-stroke--white-16
+{
+	background-position:	-4364px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-up--white-16
+{
+	background-position:	-4364px -69px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-up-alt2--white-16
+{
+	background-position:	-4364px -85px;
+	width:	16px;
+	height:	16px;
+}
+
+.play-alt--white-16
+{
+	background-position:	-4364px -101px;
+	width:	16px;
+	height:	16px;
+}
+
+.curved-arrow--white-16
+{
+	background-position:	-834px -246px;
+	width:	16px;
+	height:	12px;
+}
+
+.arrow-left-alt1--white-16
+{
+	background-position:	-4364px -188px;
+	width:	16px;
+	height:	16px;
+}
+
+.user--white-16
+{
+	background-position:	-4348px 0;
+	width:	16px;
+	height:	21px;
+}
+
+.unlock-stroke--white-16
+{
+	background-position:	-4348px -96px;
+	width:	16px;
+	height:	21px;
+}
+
+.spin--white-16
+{
+	background-position:	-4324px -240px;
+	width:	16px;
+	height:	18px;
+}
+
+.at--white-16
+{
+	background-position:	-4364px -204px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-down--white-16
+{
+	background-position:	-4372px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.info--white-16
+{
+	background-position:	-4060px -195px;
+	width:	16px;
+	height:	32px;
+}
+
+.minus-alt--white-16
+{
+	background-position:	-4372px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-left--white-16
+{
+	background-position:	-4372px -48px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-left-alt2--white-16
+{
+	background-position:	-4372px -117px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-up-alt1--white-16
+{
+	background-position:	-4372px -156px;
+	width:	16px;
+	height:	16px;
+}
+
+.reload-alt--white-16
+{
+	background-position:	-4348px -207px;
+	width:	16px;
+	height:	19px;
+}
+
+.minus--white-16
+{
+	background-position:	-225px -253px;
+	width:	16px;
+	height:	4px;
+}
+
+.arrow-right--white-16
+{
+	background-position:	-4372px -172px;
+	width:	16px;
+	height:	16px;
+}
+
+.plus--white-16
+{
+	background-position:	-4372px -220px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-right-alt2--white-16
+{
+	background-position:	-4372px -236px;
+	width:	16px;
+	height:	16px;
+}
+
+.x--white-16
+{
+	background-position:	-4373px -133px;
+	width:	16px;
+	height:	16px;
+}
+
+.chart-alt--white-16
+{
+	background-position:	-4252px -241px;
+	width:	16px;
+	height:	17px;
+}
+
+.arrow-right-alt1--white-16
+{
+	background-position:	-4380px 0;
+	width:	16px;
+	height:	16px;
+}
+
+.comment-alt2-stroke--white-16
+{
+	background-position:	-4340px -240px;
+	width:	16px;
+	height:	18px;
+}
+
+.pen-alt2--white-16
+{
+	background-position:	-4380px -64px;
+	width:	16px;
+	height:	16px;
+}
+
+.cog--white-16
+{
+	background-position:	-4380px -80px;
+	width:	16px;
+	height:	16px;
+}
+
+.first--white-16
+{
+	background-position:	-4380px -96px;
+	width:	16px;
+	height:	16px;
+}
+
+.denied--white-16
+{
+	background-position:	-4380px -188px;
+	width:	16px;
+	height:	16px;
+}
+
+.plus-alt--white-16
+{
+	background-position:	-4380px -204px;
+	width:	16px;
+	height:	16px;
+}
+
+.camera--white-16
+{
+	background-position:	-4388px -16px;
+	width:	16px;
+	height:	16px;
+}
+
+.star--white-16
+{
+	background-position:	-4388px -32px;
+	width:	16px;
+	height:	16px;
+}
+
+.wrench--white-16
+{
+	background-position:	-4388px -48px;
+	width:	16px;
+	height:	16px;
+}
+
+.arrow-right-alt2--white-24
+{
+	background-position:	-4252px -217px;
+	width:	24px;
+	height:	24px;
+}
+
+.reload-alt--white-24
+{
+	background-position:	-4060px -227px;
+	width:	24px;
+	height:	28px;
+}
+
+.star--white-24
+{
+	background-position:	-4253px -160px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-down--white-24
+{
+	background-position:	-4268px -128px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-right-alt1--white-24
+{
+	background-position:	-4276px 0;
+	width:	24px;
+	height:	24px;
+}
+
+.document-alt-stroke--white-24
+{
+	background-position:	-4076px -195px;
+	width:	24px;
+	height:	32px;
+}
+
+.minus--white-24
+{
+	background-position:	-882px -246px;
+	width:	24px;
+	height:	6px;
+}
+
+.chart-alt--white-24
+{
+	background-position:	-4252px -192px;
+	width:	24px;
+	height:	25px;
+}
+
+.moon-stroke--white-24
+{
+	background-position:	-4276px -184px;
+	width:	24px;
+	height:	24px;
+}
+
+.last--white-24
+{
+	background-position:	-4276px -208px;
+	width:	24px;
+	height:	24px;
+}
+
+.undo--white-24
+{
+	background-position:	-4276px -232px;
+	width:	24px;
+	height:	24px;
+}
+
+.pen-alt2--white-24
+{
+	background-position:	-4277px -152px;
+	width:	24px;
+	height:	24px;
+}
+
+.x--white-24
+{
+	background-position:	-4284px -24px;
+	width:	24px;
+	height:	24px;
+}
+
+.curved-arrow--white-24
+{
+	background-position:	-4349px -138px;
+	width:	24px;
+	height:	18px;
+}
+
+.first--white-24
+{
+	background-position:	-4284px -48px;
+	width:	24px;
+	height:	24px;
+}
+
+.denied--white-24
+{
+	background-position:	-4284px -72px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-left-alt1--white-24
+{
+	background-position:	-4284px -96px;
+	width:	24px;
+	height:	24px;
+}
+
+.plus-alt--white-24
+{
+	background-position:	-4292px -120px;
+	width:	24px;
+	height:	24px;
+}
+
+.play--white-24
+{
+	background-position:	-4092px -128px;
+	width:	24px;
+	height:	32px;
+}
+
+.camera--white-24
+{
+	background-position:	-4300px 0;
+	width:	24px;
+	height:	24px;
+}
+
+.cog--white-24
+{
+	background-position:	-4300px -176px;
+	width:	24px;
+	height:	24px;
+}
+
+.wrench--white-24
+{
+	background-position:	-4300px -200px;
+	width:	24px;
+	height:	24px;
+}
+
+.spin--white-24
+{
+	background-position:	-4108px -227px;
+	width:	24px;
+	height:	27px;
+}
+
+.reload--white-24
+{
+	background-position:	-4084px -227px;
+	width:	24px;
+	height:	28px;
+}
+
+.user--white-24
+{
+	background-position:	-4100px -195px;
+	width:	24px;
+	height:	32px;
+}
+
+.upload--white-24
+{
+	background-position:	-4116px -128px;
+	width:	24px;
+	height:	32px;
+}
+
+.info--white-24
+{
+	background-position:	-225px -205px;
+	width:	24px;
+	height:	48px;
+}
+
+.x-alt--white-24
+{
+	background-position:	-4300px -224px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-left-alt2--white-24
+{
+	background-position:	-4301px -144px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-right--white-24
+{
+	background-position:	-4308px -24px;
+	width:	24px;
+	height:	24px;
+}
+
+.check--white-24
+{
+	background-position:	-4348px -168px;
+	width:	24px;
+	height:	20px;
+}
+
+.check-alt--white-24
+{
+	background-position:	-4308px -48px;
+	width:	24px;
+	height:	24px;
+}
+
+.lightbulb--white-24
+{
+	background-position:	-1354px -220px;
+	width:	24px;
+	height:	38px;
+}
+
+.pause--white-24
+{
+	background-position:	-322px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.unlock-stroke--white-24
+{
+	background-position:	-4124px 0;
+	width:	24px;
+	height:	32px;
+}
+
+.arrow-up-alt2--white-24
+{
+	background-position:	-4308px -72px;
+	width:	24px;
+	height:	24px;
+}
+
+.plus--white-24
+{
+	background-position:	-4308px -96px;
+	width:	24px;
+	height:	24px;
+}
+
+.tag-fill--white-24
+{
+	background-position:	-4316px -120px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-up--white-24
+{
+	background-position:	-4324px 0;
+	width:	24px;
+	height:	24px;
+}
+
+.key-stroke--white-24
+{
+	background-position:	-4324px -168px;
+	width:	24px;
+	height:	24px;
+}
+
+.minus-alt--white-24
+{
+	background-position:	-4324px -192px;
+	width:	24px;
+	height:	24px;
+}
+
+.comment-alt2-stroke--white-24
+{
+	background-position:	-4132px -227px;
+	width:	24px;
+	height:	27px;
+}
+
+.arrow-up-alt1--white-24
+{
+	background-position:	-4324px -216px;
+	width:	24px;
+	height:	24px;
+}
+
+.at--white-24
+{
+	background-position:	-4325px -144px;
+	width:	24px;
+	height:	24px;
+}
+
+.play-alt--white-24
+{
+	background-position:	-4332px -24px;
+	width:	24px;
+	height:	24px;
+}
+
+.arrow-left--white-24
+{
+	background-position:	-4332px -48px;
+	width:	24px;
+	height:	24px;
+}
+
+.denied--white-32
+{
+	background-position:	-4124px -32px;
+	width:	32px;
+	height:	32px;
+}
+
+.arrow-up-alt2--white-32
+{
+	background-position:	-4124px -64px;
+	width:	32px;
+	height:	32px;
+}
+
+.check-alt--white-32
+{
+	background-position:	-4124px -96px;
+	width:	32px;
+	height:	32px;
+}
+
+.lightbulb--white-32
+{
+	background-position:	-193px -205px;
+	width:	32px;
+	height:	51px;
+}
+
+.pause--white-32
+{
+	background-position:	-258px -171px;
+	width:	64px;
+	height:	86px;
+}
+
+.check--white-32
+{
+	background-position:	-4156px -227px;
+	width:	32px;
+	height:	26px;
+}
+
+.unlock-stroke--white-32
+{
+	background-position:	-1418px -215px;
+	width:	32px;
+	height:	42px;
+}
+
+.wrench--white-32
+{
+	background-position:	-4124px -195px;
+	width:	32px;
+	height:	32px;
+}
+
+.reload--white-32
+{
+	background-position:	-1378px -220px;
+	width:	32px;
+	height:	37px;
+}
+
+.upload--white-32
+{
+	background-position:	-1450px -215px;
+	width:	32px;
+	height:	42px;
+}
+
+.x-alt--white-32
+{
+	background-position:	-4140px -128px;
+	width:	32px;
+	height:	32px;
+}
+
+.cog--white-32
+{
+	background-position:	-4148px 0;
+	width:	32px;
+	height:	32px;
+}
+
+.moon-stroke--white-32
+{
+	background-position:	-4156px -32px;
+	width:	32px;
+	height:	32px;
+}
+
+.arrow-up-alt1--white-32
+{
+	background-position:	-4156px -64px;
+	width:	32px;
+	height:	32px;
+}
+
+.star--white-32
+{
+	background-position:	-4156px -96px;
+	width:	32px;
+	height:	32px;
+}
+
+.tag-fill--white-32
+{
+	background-position:	-4156px -195px;
+	width:	32px;
+	height:	32px;
+}
+
+.document-alt-stroke--white-32
+{
+	background-position:	-1482px -211px;
+	width:	32px;
+	height:	42px;
+}
+
+.arrow-left-alt1--white-32
+{
+	background-position:	-4172px -128px;
+	width:	32px;
+	height:	32px;
+}
+
+.at--white-32
+{
+	background-position:	-4180px 0;
+	width:	32px;
+	height:	32px;
+}
+
+.undo--white-32
+{
+	background-position:	-4188px -32px;
+	width:	32px;
+	height:	32px;
+}
+
+.key-stroke--white-32
+{
+	background-position:	-4188px -64px;
+	width:	32px;
+	height:	32px;
+}
+
+.curved-arrow--white-32
+{
+	background-position:	-4332px -72px;
+	width:	32px;
+	height:	24px;
+}
+
+.arrow-up--white-32
+{
+	background-position:	-4188px -96px;
+	width:	32px;
+	height:	32px;
+}
+
+.play-alt--white-32
+{
+	background-position:	-4188px -195px;
+	width:	32px;
+	height:	32px;
+}
+
+.arrow-right-alt1--white-32
+{
+	background-position:	-4189px -160px;
+	width:	32px;
+	height:	32px;
+}
+
+.last--white-32
+{
+	background-position:	-4204px -128px;
+	width:	32px;
+	height:	32px;
+}
+
+.minus-alt--white-32
+{
+	background-position:	-4212px 0;
+	width:	32px;
+	height:	32px;
+}
+
+.play--white-32
+{
+	background-position:	-1514px -211px;
+	width:	32px;
+	height:	42px;
+}
+
+.arrow-right-alt2--white-32
+{
+	background-position:	-4220px -32px;
+	width:	32px;
+	height:	32px;
+}
+
+.arrow-down--white-32
+{
+	background-position:	-4220px -64px;
+	width:	32px;
+	height:	32px;
+}
+
+.spin--white-32
+{
+	background-position:	-1642px -174px;
+	width:	32px;
+	height:	36px;
+}
+
+.chart-alt--white-32
+{
+	background-position:	-4060px -128px;
+	width:	32px;
+	height:	34px;
+}
+
+.minus--white-32
+{
+	background-position:	-850px -246px;
+	width:	32px;
+	height:	8px;
+}
+
+.arrow-left--white-32
+{
+	background-position:	-4220px -96px;
+	width:	32px;
+	height:	32px;
+}
+
+.arrow-right--white-32
+{
+	background-position:	-4220px -192px;
+	width:	32px;
+	height:	32px;
+}
+
+.reload-alt--white-32
+{
+	background-position:	-1642px -137px;
+	width:	32px;
+	height:	37px;
+}
+
+.arrow-left-alt2--white-32
+{
+	background-position:	-4220px -224px;
+	width:	32px;
+	height:	32px;
+}
+
+.info--white-32
+{
+	background-position:	-1482px -147px;
+	width:	32px;
+	height:	64px;
+}
+
+.user--white-32
+{
+	background-position:	-1546px -211px;
+	width:	32px;
+	height:	42px;
+}
+
+.first--white-32
+{
+	background-position:	-4221px -160px;
+	width:	32px;
+	height:	32px;
+}
+
+.x--white-32
+{
+	background-position:	-4236px -128px;
+	width:	32px;
+	height:	32px;
+}
+
+.pen-alt2--white-32
+{
+	background-position:	-4244px 0;
+	width:	32px;
+	height:	32px;
+}
+
+.camera--white-32
+{
+	background-position:	-4252px -32px;
+	width:	32px;
+	height:	32px;
+}
+
+.plus--white-32
+{
+	background-position:	-4252px -64px;
+	width:	32px;
+	height:	32px;
+}
+
+.plus-alt--white-32
+{
+	background-position:	-4252px -96px;
+	width:	32px;
+	height:	32px;
+}
+
+.comment-alt2-stroke--white-32
+{
+	background-position:	-1642px -210px;
+	width:	32px;
+	height:	36px;
+}
+
+.first--white-64
+{
+	background-position:	-1514px -147px;
+	width:	64px;
+	height:	64px;
+}
+
+.denied--white-64
+{
+	background-position:	-1578px -137px;
+	width:	64px;
+	height:	64px;
+}
+
+.tag-fill--white-64
+{
+	background-position:	-3612px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.arrow-up--white-64
+{
+	background-position:	-3612px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.camera--white-64
+{
+	background-position:	-3676px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.wrench--white-64
+{
+	background-position:	-3676px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.minus-alt--white-64
+{
+	background-position:	-3676px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.x-alt--white-64
+{
+	background-position:	-3676px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.star--white-64
+{
+	background-position:	-3740px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.pause--white-64
+{
+	background-position:	-386px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.arrow-up-alt2--white-64
+{
+	background-position:	-3740px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.moon-stroke--white-64
+{
+	background-position:	-3740px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.play-alt--white-64
+{
+	background-position:	-3740px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.check--white-64
+{
+	background-position:	-129px -205px;
+	width:	64px;
+	height:	52px;
+}
+
+.unlock-stroke--white-64
+{
+	background-position:	-450px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.undo--white-64
+{
+	background-position:	-3804px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.reload--white-64
+{
+	background-position:	-834px -171px;
+	width:	64px;
+	height:	75px;
+}
+
+.arrow-left-alt1--white-64
+{
+	background-position:	-3804px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.upload--white-64
+{
+	background-position:	-514px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.x--white-64
+{
+	background-position:	-3804px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.last--white-64
+{
+	background-position:	-3804px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.chart-alt--white-64
+{
+	background-position:	-1418px -147px;
+	width:	64px;
+	height:	68px;
+}
+
+.key-stroke--white-64
+{
+	background-position:	-3868px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.play--white-64
+{
+	background-position:	-578px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.comment-alt2-stroke--white-64
+{
+	background-position:	-962px -171px;
+	width:	64px;
+	height:	73px;
+}
+
+.cog--white-64
+{
+	background-position:	-3868px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.curved-arrow--white-64
+{
+	background-position:	-1578px -201px;
+	width:	64px;
+	height:	48px;
+}
+
+.arrow-left--white-64
+{
+	background-position:	-3868px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.arrow-up-alt1--white-64
+{
+	background-position:	-3868px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.at--white-64
+{
+	background-position:	-3932px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.reload-alt--white-64
+{
+	background-position:	-898px -171px;
+	width:	64px;
+	height:	75px;
+}
+
+.spin--white-64
+{
+	background-position:	-1354px -147px;
+	width:	64px;
+	height:	73px;
+}
+
+.arrow-down--white-64
+{
+	background-position:	-3932px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.arrow-left-alt2--white-64
+{
+	background-position:	-3932px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.pen-alt2--white-64
+{
+	background-position:	-3932px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.arrow-right--white-64
+{
+	background-position:	-3996px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.info--white-64
+{
+	background-position:	-3612px 0;
+	width:	64px;
+	height:	128px;
+}
+
+.user--white-64
+{
+	background-position:	-642px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.plus-alt--white-64
+{
+	background-position:	-3996px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.minus--white-64
+{
+	background-position:	-4388px -112px;
+	width:	64px;
+	height:	16px;
+}
+
+.arrow-right-alt1--white-64
+{
+	background-position:	-3996px -128px;
+	width:	64px;
+	height:	64px;
+}
+
+.document-alt-stroke--white-64
+{
+	background-position:	-706px -171px;
+	width:	64px;
+	height:	85px;
+}
+
+.arrow-right-alt2--white-64
+{
+	background-position:	-3996px -192px;
+	width:	64px;
+	height:	64px;
+}
+
+.check-alt--white-64
+{
+	background-position:	-4060px 0;
+	width:	64px;
+	height:	64px;
+}
+
+.lightbulb--white-64
+{
+	background-position:	-1161px -151px;
+	width:	64px;
+	height:	102px;
+}
+
+.plus--white-64
+{
+	background-position:	-4060px -64px;
+	width:	64px;
+	height:	64px;
+}
+
+.last--white-128
+{
+	background-position:	-1677px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.first--white-128
+{
+	background-position:	-1677px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.minus-alt--white-128
+{
+	background-position:	-1806px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-up-alt1--white-128
+{
+	background-position:	-1806px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.upload--white-128
+{
+	background-position:	-258px 0;
+	width:	129px;
+	height:	171px;
+}
+
+.curved-arrow--white-128
+{
+	background-position:	-1225px -151px;
+	width:	129px;
+	height:	97px;
+}
+
+.lightbulb--white-128
+{
+	background-position:	-129px 0;
+	width:	129px;
+	height:	205px;
+}
+
+.arrow-right-alt1--white-128
+{
+	background-position:	-1935px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.reload--white-128
+{
+	background-position:	-1032px 0;
+	width:	129px;
+	height:	151px;
+}
+
+.chart-alt--white-128
+{
+	background-position:	-1548px 0;
+	width:	129px;
+	height:	137px;
+}
+
+.key-stroke--white-128
+{
+	background-position:	-1935px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-down--white-128
+{
+	background-position:	-2064px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.tag-fill--white-128
+{
+	background-position:	-2064px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.comment-alt2-stroke--white-128
+{
+	background-position:	-1290px 0;
+	width:	129px;
+	height:	147px;
+}
+
+.play--white-128
+{
+	background-position:	-387px 0;
+	width:	129px;
+	height:	171px;
+}
+
+.x-alt--white-128
+{
+	background-position:	-2193px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.user--white-128
+{
+	background-position:	-516px 0;
+	width:	129px;
+	height:	171px;
+}
+
+.arrow-left-alt2--white-128
+{
+	background-position:	-2193px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-up--white-128
+{
+	background-position:	-2322px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.spin--white-128
+{
+	background-position:	-1419px 0;
+	width:	129px;
+	height:	147px;
+}
+
+.info--white-128
+{
+	width:	129px;
+	height:	257px;
+}
+
+.pause--white-128
+{
+	background-position:	-645px 0;
+	width:	129px;
+	height:	171px;
+}
+
+.check-alt--white-128
+{
+	background-position:	-2322px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.reload-alt--white-128
+{
+	background-position:	-1161px 0;
+	width:	129px;
+	height:	151px;
+}
+
+.document-alt-stroke--white-128
+{
+	background-position:	-774px 0;
+	width:	129px;
+	height:	171px;
+}
+
+.plus--white-128
+{
+	background-position:	-2451px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.plus-alt--white-128
+{
+	background-position:	-2451px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.denied--white-128
+{
+	background-position:	-2580px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.minus--white-128
+{
+	background-position:	-4060px -162px;
+	width:	129px;
+	height:	33px;
+}
+
+.moon-stroke--white-128
+{
+	background-position:	-2580px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.cog--white-128
+{
+	background-position:	-2709px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.check--white-128
+{
+	background-position:	-1032px -151px;
+	width:	129px;
+	height:	105px;
+}
+
+.play-alt--white-128
+{
+	background-position:	-2709px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.star--white-128
+{
+	background-position:	-2838px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-left--white-128
+{
+	background-position:	-2838px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-right--white-128
+{
+	background-position:	-2967px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-left-alt1--white-128
+{
+	background-position:	-2967px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-right-alt2--white-128
+{
+	background-position:	-3096px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.undo--white-128
+{
+	background-position:	-3096px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.wrench--white-128
+{
+	background-position:	-3225px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.x--white-128
+{
+	background-position:	-3225px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.pen-alt2--white-128
+{
+	background-position:	-3354px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.arrow-up-alt2--white-128
+{
+	background-position:	-3354px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.at--white-128
+{
+	background-position:	-3483px 0;
+	width:	129px;
+	height:	129px;
+}
+
+.camera--white-128
+{
+	background-position:	-3483px -129px;
+	width:	129px;
+	height:	129px;
+}
+
+.unlock-stroke--white-128
+{
+	background-position:	-903px 0;
+	width:	129px;
+	height:	171px;
+}
+
+/* QuickSprites - END - DO NOT REMOVE THIS LINE */

@@ -1,0 +1,249 @@
+/*html,body { background-color: #000 !important; }*/
+.app-content,.app-header { background-color: transparent !important; }
+body,td,input,textarea,select,option,p,li,label
+{ font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 12px!important; }
+hr.center-rep {
+	background-color: #8a1f29;
+	height: 2px;
+	margin-top: -1px;
+	position: fixed;
+	top: 50%;
+	width: 100%;
+}
+
+
+label { display: block; text-align: left; }
+
+html body .grid_5 form textarea,
+html body .grid_5 form input[type=text],
+html body .grid_5 form input[type=email],
+html body .grid_5 form input[type=password],
+html body .grid_5 form select { background-color: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.2); }
+html body input.big { font-size: 4em; }
+html body .w-100 { margin: 9%; width: 80%; }
+
+html body input#speed-search { color: #000 !important; font-size: 2em !important; }
+
+input[type=text],input[type=email],input[type=password],textarea {
+	border: 2px solid #fff;
+	margin-bottom: 15px;
+	padding: 1%;
+	width: 98%;
+}
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus,textarea:focus { border: 2px solid #242424; }
+button { border: 0px; margin: 15px; padding: 15px; }
+
+
+h1,h2 { margin-top: 0px; }
+h1 { margin-bottom: 0px; }
+
+label .small {
+	-ms-filter: 	  'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+	-khtml-opacity: 	  0.50;
+	filter: 		  alpha(opacity=50):-moz-opacity 	: 0.50;
+	font-size: 0.7em;
+	opacity: 	  0.50;
+}
+label .small:after { content: "."; }
+
+html body form .app-helper {
+	background-color: #ffb74a !important;
+	color: #886228 !important;
+	margin-left: 5px;
+	padding: 15px;
+	position: absolute;
+	text-align: left;
+}
+html body form .app-helper hr {
+	background-color: #c28c39;
+	border: 0px;
+	border-bottom: 1px;
+	height: 2px;
+}
+html body form .app-helper:before {
+	border-color: transparent transparent #ffb74a transparent;
+	border-style: solid;
+	border-width: 0px 7.5px 10px 7.5px;
+	content: "";
+	height: 0px;
+	margin-top: -24px;
+	position: absolute;
+	width: 0px;
+}
+
+
+.toggle-me {
+	-ms-filter: 	  'progid:DXImageTransform.Microsoft.Alpha(Opacity=30)';
+	-khtml-opacity: 	  0.30;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+	bottom: 10px;
+	filter: 		  alpha(opacity=30):-moz-opacity 	: 0.30;
+	height: 32px;
+	opacity: 	  0.30;
+	position: fixed;
+	width: 32px;
+	z-index: 600;
+}
+.toggle-me.toggle-on {
+	-ms-filter: 	  'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+	-khtml-opacity: 	  1;
+	filter: 		  alpha(opacity=1):-moz-opacity 	: 1;
+	opacity: 	  1;
+}
+
+
+textarea { min-height: 200px; }
+#toggle-timer { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/clock2.svg'); left: 52px; }
+#toggle-helper { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/question4.svg'); left: 10px; }
+.media-queries-info { display: none; }
+#console {
+	background-color: rgba(0,0,0,0.1);
+	bottom: 0px;
+	color: rgba(0,0,0,0.8);
+	max-width: 150px;
+	padding: 10px;
+	position: fixed;
+	right: 0px;
+}
+
+.left { margin-bottom: 15px; text-align: left; }
+
+label .small { display: none; }
+.shortcut { padding: 5px; }
+
+#gritter-notice-wrapper { position: fixed; right: 0px; top: 0px; }
+.gritter-item-wrapper {
+	background-color: rgba(0,0,0,0.9);
+	color: #fff;
+	padding: 10px;
+	width: 250px;
+}
+.gritter-item-wrapper img { float: left; margin-right: 10px; }
+
+input:checked + .check-for { font-weight: bolder; }
+.rb-user {
+	-webkit-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	-ms-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	height: 96px;
+	margin-right: -48px;
+	margin-top: -48px;
+	overflow: hidden;
+	position: fixed;
+	right: 0px;
+	transition: all 100ms ease-in-out;
+	width: 96px;
+}
+.hide { display: none; }
+#toggle-app-menu {
+
+	background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/menu7-white.svg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	display: inline-block;
+	height: 32px;
+	left: 0px;
+	line-height: 32px;
+	padding: 16px;
+	/*position: absolute;*/
+	top: 0px;
+	width: 32px;
+	margin-top: -1px;
+	z-index: 602;
+}
+#toggle-app-menu.toggle-menu-open { background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/menu8-white.svg'); }
+.app-menu {
+	
+	padding-left: 48px;46position: relative;
+	z-index: 601;
+}
+.app-menu ul{ margin: 0px; padding: 10px; }
+.app-menu ul ul{padding: 0px; }
+.app-menu ul li .menu-title-group { color: #adadad; font-size: 0.8em; padding-left: 60px; margin-top:25px; display: block;}
+.app-menu ul li { list-style: none; }
+.app-menu ul li ul li { border-bottom: 0px; }
+.app-menu a {
+	background-color: none !important;
+	line-height: 28px;
+	padding: 8px;
+	text-decoration: none;
+border-bottom: 1px solid rgba(36,36,36,0.3);
+	
+	background-size: 16px 16px;
+}
+.app-content a { background-color: transparent !important; color: #4BC192 !important; text-decoration: none; }
+
+
+.rb-user:hover {
+	-webkit-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-moz-transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	margin-right: 0px;
+	margin-top: 0px;
+	transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+
+
+body .onActive { background-color: #fff; color: #000; }
+body .onActive,
+body .onActive * { color: #000 !important; }
+body .onSelect { background-color: #ffeeba; color: #000; }
+body .onSelect,
+body .onSelect * { color: #000 !important; }
+
+
+.disconnet { margin-top: 96px; position: absolute; }
+img#startup {
+	height: 100%;
+	position: fixed;
+	top: -24px;
+	width: 100%;
+	z-index: 999;
+}
+.app-form-footer { clear: both; }
+.app-header { margin-bottom: 50px; }
+#app-ref {
+	font-size: 0.7em;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+
+.app-modal {
+	margin: auto;
+	position: fixed;
+	width: 60%;
+	z-index: 900;
+}
+
+.app-menu ul:first-child{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

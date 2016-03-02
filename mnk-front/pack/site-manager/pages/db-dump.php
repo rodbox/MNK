@@ -1,0 +1,1 @@
+<?php db::dump(0, DIR_ROOT, 2); ?>

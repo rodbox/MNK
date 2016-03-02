@@ -1,0 +1,1 @@
+<input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="user_forget_mail" class="" id="" placeholder="Votre mail"  />

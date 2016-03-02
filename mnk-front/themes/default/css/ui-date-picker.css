@@ -1,0 +1,128 @@
+
+
+.ui-datepicker-prev, .ui-datepicker-next {  
+    display: inline;
+    width: 19px;  
+    height: 19px;  
+    text-align: center;  
+    cursor: pointer;  
+    overflow: hidden;  
+    background-position:  center center !important;
+    background-repeat: no-repeat;
+    padding:15px;
+}
+.ui-datepicker-prev {  
+    float: left;  
+    background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/fff/12px/arrow-left.png');
+}
+  .ui-datepicker tbody td.ui-state-disabled:hover,
+  .ui-datepicker tbody td.ui-state-disabled{ color: #ccc; cursor: inherit;background-color: #ECF0F1;border-right: 1px solid #d8dee9;border-bottom: 1px solid #d8dee9;}
+
+.ui-datepicker-next {  
+    float: right;
+    background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/fff/12px/arrow-right2.png');
+}
+.ui-datepicker { background-color: #242424;}
+.ui-datepicker-title {line-height: 50px; vertical-align: middle; font-size: 1.5em; color: #fff;}
+.ui-datepicker-title *{ color: #fff;}
+.ui-datepicker-title,
+.ui-datepicker tbody td {  
+    padding: 0; text-align: center;
+
+    }
+.ui-datepicker tbody td:hover {  
+ background: url('../img/b_fff_20.png') 
+
+  }
+ .ui-datepicker tbody .ui-state-disabled:hover{background-image: none !important;
+ } 
+a.ui-state-default{ color:#888 !important;}
+  /*.ui-datepicker tbody td{border-right: 1px solid #ecf0f1;border-bottom: 1px solid #ecf0f1;}*/
+  .ui-datepicker tbody td{border:none;}
+
+  .ui-datepicker tbody tr td:last-child{ border-right: none;}
+  .ui-datepicker tbody tr:last-child td{ border-bottom: none;}
+  .ui-datepicker tbody td > a{ 
+   padding: 10px;
+
+   /*width: 30px;*/
+   line-height: 30px;
+
+   }
+
+
+   .ui-datepicker tbody td > a:hover{ 
+      text-decoration: none;
+  } 
+  .ui-datepicker th {  
+    text-align: center;
+    font-size: 9px;  
+    /*border-bottom: 1px solid #c9d1d6;*/
+    color: #fff;
+
+}
+
+.ui-datepicker tbody td.ui-datepicker-current-day {background-color: #16a085;}
+.ui-datepicker tbody td.ui-datepicker-current-day:hover {background-color: #16a085;   background-image: url('../img/b_fff_20.png');}
+
+.ui-datepicker tbody td.ui-datepicker-today{background-color: #d35400; background-image: none;}
+.ui-datepicker tbody td.ui-datepicker-today:hover{background-color: #d35400;    background-image: url('../img/b_fff_30.png');}
+
+
+.ui-datepicker-today a,
+.ui-datepicker-current-day a{
+  color: #fff !important;
+}
+.ui-datepicker tbody td.ui-datepicker-week-end { }
+.ui-datepicker {  
+   font-size: 0.8em;
+
+
+} 
+.ui-datepicker-other-month{
+  background-color: transparent !important;
+  border: none !important;;
+  color: #444 !important;
+}
+/* 
+        .ui-datepicker a {  
+        text-decoration: none;  
+    }  
+
+        .ui-datepicker-header {  
+      
+    
+        line-height: 30px;  
+
+    }
+
+
+        .ui-datepicker thead {  
+        background-color: #f7f7f7;  
+      
+        border-bottom: 1px solid #bbb;  
+    }
+
+        .ui-datepicker th {  
+ 
+        font-size: 9px;  
+        padding: 5px 0;  
+        color: #666666;  
+
+    }
+
+.ui-datepicker-title,
+.ui-datepicker-calendar { clear: both;}
+    .dropdown-menu.extended li a {
+    clear: both;
+    display: inline;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 5px 10px !important;
+    white-space: normal !important;
+}
+
+    .ui-datepicker tbody td {  
+        padding: 3; height: 20px; width: 20px;  
+       
+    }  */

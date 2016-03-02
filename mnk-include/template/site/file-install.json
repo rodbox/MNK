@@ -1,0 +1,26 @@
+{
+	"mnk"		:	{
+		"file" 		:"source.zip",
+		"version"	: "?"
+	},
+	"joomla"	:	{
+		"file" 		:"Joomla_3.1.5-Stable-Full_Package_FR.v2.zip",
+		"version"	: "3.1.5"
+	},
+	"wordpress"	:	{
+		"file" 		:"wordpress-3.7-fr_FR.zip",
+		"version"	: "3.7"
+	},
+	"drupal"	:	{
+		"file" 		:"drupal-7.23.zip",
+		"version"	: "3.23"
+	},
+	"prestashop"	:	{
+		"file" 		:"prestashop_1.5.6.0.zip",
+		"version"	: "1.5.6.0"
+	},
+	"modx"	:	{
+		"file" 		:"modx-2.2.10-pl.zip",
+		"version"	: "2.2.10"
+	}
+}

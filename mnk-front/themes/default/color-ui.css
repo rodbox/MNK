@@ -1,0 +1,466 @@
+
+
+/* ######### Color attributes ######### */
+
+
+.portlet.box .portlet-body 
+{
+ 	background-color: #fff;
+	padding: 0px;
+}
+.portlet.box .portlet-title {	margin-bottom: 0px;}
+
+/* ######### dark ######### */
+
+
+.c-dark 	{ color : #000;}
+.bg-dark {
+	background-color : #000;
+	background-image: none !important;
+}
+.portlet-body.light-dark, 
+.portlet.light-dark 
+{
+	background-color : #000;
+}
+.portlet.box.dark .portlet-title {
+ 	background-color : #000;
+}
+
+
+
+/* ######### midnight ######### */
+
+
+.c-midnight 	{ color : #2c3e50;}
+.bg-midnight {
+	background-color : #2c3e50;
+	background-image: none !important;
+}
+.portlet-body.light-midnight, 
+.portlet.light-midnight 
+{
+	background-color : #2c3e50;
+}
+.portlet.box.midnight .portlet-title {
+ 	background-color : #2c3e50;
+}
+
+
+
+/* ######### belize ######### */
+
+
+.c-belize 	{ color : #2980b9;}
+.bg-belize {
+	background-color : #2980b9;
+	background-image: none !important;
+}
+.portlet-body.light-belize, 
+.portlet.light-belize 
+{
+	background-color : #2980b9;
+}
+.portlet.box.belize .portlet-title {
+ 	background-color : #2980b9;
+}
+
+
+
+/* ######### blue ######### */
+
+
+.c-blue 	{ color : #4b8df8;}
+.bg-blue {
+	background-color : #4b8df8;
+	background-image: none !important;
+}
+.portlet-body.light-blue, 
+.portlet.light-blue 
+{
+	background-color : #4b8df8;
+}
+.portlet.box.blue .portlet-title {
+ 	background-color : #4b8df8;
+}
+
+
+
+/* ######### purple ######### */
+
+
+.c-purple 	{ color : #9b59b6;}
+.bg-purple {
+	background-color : #9b59b6;
+	background-image: none !important;
+}
+.portlet-body.light-purple, 
+.portlet.light-purple 
+{
+	background-color : #9b59b6;
+}
+.portlet.box.purple .portlet-title {
+ 	background-color : #9b59b6;
+}
+
+
+
+/* ######### wisteria ######### */
+
+
+.c-wisteria 	{ color : #8e44ad;}
+.bg-wisteria {
+	background-color : #8e44ad;
+	background-image: none !important;
+}
+.portlet-body.light-wisteria, 
+.portlet.light-wisteria 
+{
+	background-color : #8e44ad;
+}
+.portlet.box.wisteria .portlet-title {
+ 	background-color : #8e44ad;
+}
+
+
+
+/* ######### sea ######### */
+
+
+.c-sea 	{ color : #16a085;}
+.bg-sea {
+	background-color : #16a085;
+	background-image: none !important;
+}
+.portlet-body.light-sea, 
+.portlet.light-sea 
+{
+	background-color : #16a085;
+}
+.portlet.box.sea .portlet-title {
+ 	background-color : #16a085;
+}
+
+
+
+/* ######### turquoise ######### */
+
+
+.c-turquoise 	{ color : #1abc9c;}
+.bg-turquoise {
+	background-color : #1abc9c;
+	background-image: none !important;
+}
+.portlet-body.light-turquoise, 
+.portlet.light-turquoise 
+{
+	background-color : #1abc9c;
+}
+.portlet.box.turquoise .portlet-title {
+ 	background-color : #1abc9c;
+}
+
+
+
+/* ######### green ######### */
+
+
+.c-green 	{ color : #35aa47;}
+.bg-green {
+	background-color : #35aa47;
+	background-image: none !important;
+}
+.portlet-body.light-green, 
+.portlet.light-green 
+{
+	background-color : #35aa47;
+}
+.portlet.box.green .portlet-title {
+ 	background-color : #35aa47;
+}
+
+
+
+/* ######### emer ######### */
+
+
+.c-emer 	{ color : #2ecc71;}
+.bg-emer {
+	background-color : #2ecc71;
+	background-image: none !important;
+}
+.portlet-body.light-emer, 
+.portlet.light-emer 
+{
+	background-color : #2ecc71;
+}
+.portlet.box.emer .portlet-title {
+ 	background-color : #2ecc71;
+}
+
+
+
+/* ######### sun ######### */
+
+
+.c-sun 	{ color : #f1c40f;}
+.bg-sun {
+	background-color : #f1c40f;
+	background-image: none !important;
+}
+.portlet-body.light-sun, 
+.portlet.light-sun 
+{
+	background-color : #f1c40f;
+}
+.portlet.box.sun .portlet-title {
+ 	background-color : #f1c40f;
+}
+
+
+
+/* ######### yellow ######### */
+
+
+.c-yellow 	{ color : #ffb848;}
+.bg-yellow {
+	background-color : #ffb848;
+	background-image: none !important;
+}
+.portlet-body.light-yellow, 
+.portlet.light-yellow 
+{
+	background-color : #ffb848;
+}
+.portlet.box.yellow .portlet-title {
+ 	background-color : #ffb848;
+}
+
+
+
+/* ######### orange ######### */
+
+
+.c-orange 	{ color : #f39c12;}
+.bg-orange {
+	background-color : #f39c12;
+	background-image: none !important;
+}
+.portlet-body.light-orange, 
+.portlet.light-orange 
+{
+	background-color : #f39c12;
+}
+.portlet.box.orange .portlet-title {
+ 	background-color : #f39c12;
+}
+
+
+
+/* ######### carrot ######### */
+
+
+.c-carrot 	{ color : #e67e22;}
+.bg-carrot {
+	background-color : #e67e22;
+	background-image: none !important;
+}
+.portlet-body.light-carrot, 
+.portlet.light-carrot 
+{
+	background-color : #e67e22;
+}
+.portlet.box.carrot .portlet-title {
+ 	background-color : #e67e22;
+}
+
+
+
+/* ######### pumpkin ######### */
+
+
+.c-pumpkin 	{ color : #d35400;}
+.bg-pumpkin {
+	background-color : #d35400;
+	background-image: none !important;
+}
+.portlet-body.light-pumpkin, 
+.portlet.light-pumpkin 
+{
+	background-color : #d35400;
+}
+.portlet.box.pumpkin .portlet-title {
+ 	background-color : #d35400;
+}
+
+
+
+/* ######### pome ######### */
+
+
+.c-pome 	{ color : #c0392b;}
+.bg-pome {
+	background-color : #c0392b;
+	background-image: none !important;
+}
+.portlet-body.light-pome, 
+.portlet.light-pome 
+{
+	background-color : #c0392b;
+}
+.portlet.box.pome .portlet-title {
+ 	background-color : #c0392b;
+}
+
+
+
+/* ######### red ######### */
+
+
+.c-red 	{ color : #e02222;}
+.bg-red {
+	background-color : #e02222;
+	background-image: none !important;
+}
+.portlet-body.light-red, 
+.portlet.light-red 
+{
+	background-color : #e02222;
+}
+.portlet.box.red .portlet-title {
+ 	background-color : #e02222;
+}
+
+
+
+/* ######### alizarin ######### */
+
+
+.c-alizarin 	{ color : #e74c3c;}
+.bg-alizarin {
+	background-color : #e74c3c;
+	background-image: none !important;
+}
+.portlet-body.light-alizarin, 
+.portlet.light-alizarin 
+{
+	background-color : #e74c3c;
+}
+.portlet.box.alizarin .portlet-title {
+ 	background-color : #e74c3c;
+}
+
+
+
+/* ######### grey ######### */
+
+
+.c-grey 	{ color : #555555;}
+.bg-grey {
+	background-color : #555555;
+	background-image: none !important;
+}
+.portlet-body.light-grey, 
+.portlet.light-grey 
+{
+	background-color : #555555;
+}
+.portlet.box.grey .portlet-title {
+ 	background-color : #555555;
+}
+
+
+
+/* ######### asbestos ######### */
+
+
+.c-asbestos 	{ color : #7f8c8d;}
+.bg-asbestos {
+	background-color : #7f8c8d;
+	background-image: none !important;
+}
+.portlet-body.light-asbestos, 
+.portlet.light-asbestos 
+{
+	background-color : #7f8c8d;
+}
+.portlet.box.asbestos .portlet-title {
+ 	background-color : #7f8c8d;
+}
+
+
+
+/* ######### concrete ######### */
+
+
+.c-concrete 	{ color : #95a5a6;}
+.bg-concrete {
+	background-color : #95a5a6;
+	background-image: none !important;
+}
+.portlet-body.light-concrete, 
+.portlet.light-concrete 
+{
+	background-color : #95a5a6;
+}
+.portlet.box.concrete .portlet-title {
+ 	background-color : #95a5a6;
+}
+
+
+
+/* ######### silver ######### */
+
+
+.c-silver 	{ color : #bdc3c7;}
+.bg-silver {
+	background-color : #bdc3c7;
+	background-image: none !important;
+}
+.portlet-body.light-silver, 
+.portlet.light-silver 
+{
+	background-color : #bdc3c7;
+}
+.portlet.box.silver .portlet-title {
+ 	background-color : #bdc3c7;
+}
+
+
+
+/* ######### clouds ######### */
+
+
+.c-clouds 	{ color : #ecf0f1;}
+.bg-clouds {
+	background-color : #ecf0f1;
+	background-image: none !important;
+}
+.portlet-body.light-clouds, 
+.portlet.light-clouds 
+{
+	background-color : #ecf0f1;
+}
+.portlet.box.clouds .portlet-title {
+ 	background-color : #ecf0f1;
+}
+
+
+
+/* ######### white ######### */
+
+
+.c-white 	{ color : #fff;}
+.bg-white {
+	background-color : #fff;
+	background-image: none !important;
+}
+.portlet-body.light-white, 
+.portlet.light-white 
+{
+	background-color : #fff;
+}
+.portlet.box.white .portlet-title {
+ 	background-color : #fff;
+}
+

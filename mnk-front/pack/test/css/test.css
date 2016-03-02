@@ -1,0 +1,13 @@
+ul.root li { margin-bottom: 5px;}
+.title-folder{
+	background-color: #fff;
+	padding: 15px; 
+	border-radius: 10px !important;
+}
+ul.sub-folder{
+	
+}
+ul li ul{ margin-left: 25px;}
+#strFind{ background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/rocket.png'); background-repeat:no-repeat; background-position: 5px center; padding-left: 25px;border: none;}
+
+.onSelectZero{ font-weight: bolder; font-size: 1.2em !important;background-color: #ffce7b;}

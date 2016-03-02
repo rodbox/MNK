@@ -1,0 +1,48 @@
+.color-list input{ width: 80px; margin-bottom: 0px; border: none; padding: 0px; padding-right: 5px;}
+
+.color-list input[type=text]{  background-color: transparent;}
+.color-list label{ margin: 0px; display: inline-table !important; width: 106px; text-align: right; padding-right: 5px;}
+.sp-replacer{ border: none !important;
+background-color: transparent!important;
+padding: 0px!important;
+}
+.color-picker,
+.sp-preview{ border: none!important; width: 130px!important; height: 25px!important; padding: 0px;}
+.sp-preview-inner{width: 150px; height: 25px; padding: 0px;-webkit-box-shadow: inset 10px 0px 0px 0px rgba(255, 255, 255, 0.3);
+        
+        box-shadow: inset 10px 0px 0px 0px rgba(255, 255, 255, 0.3);}
+.sp-dd {display: none;}
+
+.color-list { padding: 4%; margin-top: 5px;margin-left: 5px;  display: inline-block; width: 31%; vertical-align: top; height: 350px; overflow: hidden; background-color: #f6f6f6;}
+
+.color-list.new-palette{ background-image: url("http://betty.excentrik.fr/mnk-include/core/img/ui/242424/64px/plus-circle.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+
+.color-list:last-of-type{ margin-bottom: 5px;}
+.color-list ul { margin-top: 35px;}
+.color-list ul li:hover{background-color: #ffeb9a;}
+.color-list ul li .hoverShow {display: none;}
+.color-list ul li:hover .hoverShow {display: inline-block;}
+input.palette-title{ padding: 10px; border-bottom: 1px solid #ccc; width: 94%; margin-bottom: 20px; font-size: 2em!important;}
+
+.color-list .footer{ position: absolute; margin-top: 240px; width: 26%; z-index: 999; padding-top: 10px; height: 25px; }
+.color-list .footer:hover{ background-color: #f6f6f6;  }
+.color-list .addColor{ position: absolute; margin-left: 111px;  }
+
+.color-list .footer,
+.color-list .addColor
+{ display: none; vertical-align: bottom;}
+.color-list:hover .footer,
+.color-list:hover .addColor
+{ display: block;}
+
+.addColor{ font-size: 1.1em; color: #242424; font-weight: bold;margin-bottom: 5px;}
+.delete-color{ width: 16px; height: 16px; line-height: 16px; padding: 8px;
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/remove4.png'); background-position: center center; background-repeat: no-repeat;
+}
+.grib .header {text-align: right;}
+.grib .header a { line-height: 16px; padding: 3px; background-color: #fff; }

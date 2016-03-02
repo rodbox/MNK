@@ -1,0 +1,5 @@
+.form-toggle{ width:50px;overflow: hidden; cursor: default;}
+.form-toggle input[type=checkbox]{display: none;}
+.form-toggle-slide{ width: 100px; overflow: hidden;}
+.form-toggle-slide.form-toggle-off{ margin-left: -50px;}
+.form-toggle .form-toggle-value{width: 50% !important; padding: 0px; float: left; text-align: center; }

@@ -1,0 +1,25 @@
+.side-right{position: fixed; width: 257px; top:41px; right:-257px;}
+.side-right div.toggle-side-right{position: absolute; margin-left: -30px;
+-webkit-box-shadow: inset -5px 0px 0px 0px rgba(0, 0, 0, 0.3);
+        
+        box-shadow: inset -5px 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.side-right div.toggle-side-right a{ padding:7px; line-height: 30px;}
+
+.stick{ position: absolute; top:0px; margin-top: 6px; margin-left: -24px; background-color: transparent; color:#e67e22;height: 11px; display: block; text-align: right;  width: 20px;
+font-weight: bolder; font-size: 14px;}
+
+#toodoo .menu{ background-color: #e67e22; margin-bottom: 0px;}
+#toodoo .body{ }
+.toodoo {
+	background-color: #fadf6d; min-height: 150px;
+}
+.toodoo ul li{ padding: 10px; border-bottom: 1px solid #e67e22; color:#d35400;}
+.toodoo ul li:last-child{ border-bottom: 0px }
+.toodoo ul li.check{ text-decoration: line-through;color:#d3972f;}
+.toodoo ul li a { font-weight: bolder;color:#d35400; }
+.toodoo .task-add-zone { display: none;}
+.toodoo .task-add-zone textarea{ height: 100px; margin:10px; width:227px;background-color: #ffec90; border:none;}
+
+
+

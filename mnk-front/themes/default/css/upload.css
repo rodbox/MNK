@@ -1,0 +1,18 @@
+#droparea{  border: 4px dashed #999; height: 150px; text-align: center; }
+#droparea.dragover{ border-color: #4b73b8;}
+#droparea p { font-size: 2em;color: #999; padding-top: 20px; }
+#droparea .small { font-size: 0.8em; display: block; color: #999; margin-top: 20px; margin-bottom: 30px;}
+
+#filelist { margin: 2%;}
+.file{ padding: 5px; color: #a8aaa6; border-bottom: 1px solid #f2f2f2; background-color: #fdfffa}
+.file .progressBar{height: 10px; padding: 1px; width: 100px; background-color: #f2f2f2;}
+.file .progressBar .progress{background-color: #ffd234 !important; height: 10px!important; width: 0%; background-image: none !important;}
+
+.file.upload-complete .progressBar .progress{ background-color: #67b82b!important;}
+.file.upload-complete { color: #242424;}
+.file.upload-current { color: #242424; font-weight: bolder;}
+
+
+
+
+

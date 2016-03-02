@@ -1,0 +1,13 @@
+html body.app-user_e1 .grid_5 form textarea,
+html body.app-user_e1 .grid_5 form input[type=text],
+html body.app-user_e1 .grid_5 form input[type=password],
+html body.app-user_e1 .grid_5 form select
+{width: 48%;}
+html body.app-user_e1 .grid_5 form label{
+	width: 48%;
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
+	/*margin: 0px;*/
+
+}

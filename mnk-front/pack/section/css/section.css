@@ -1,0 +1,57 @@
+#grid-view {
+	min-height: 250px;padding-bottom: 15px;padding-top: 15px;
+}
+
+div.section{ height: 150px; background-color: #ccc;
+
+border: 5px solid #ccc;
+ margin-left: 15px;margin-right: 15px;margin-bottom: 15px;}
+
+.add-section{ padding: 20px;margin-left: 15px;margin-right: 15px;}
+
+ div.section .section-body { padding: 15px; margin-top: 15px;}
+div.section.onSelect{border: 5px solid #242424;height: 300px;}
+div.section .section-id:before{content:" #"; margin-left: 5px;}
+div.section .section-id{font-size:0.8em;margin-top: -5px; margin-left: -5px;  height: 16px; padding: 5px; display: inline-block; text-align: center; position: absolute;}
+div.section .section-id,
+a.del {-moz-opacity: 0.75;
+opacity: 0.75;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=75);}
+div.section.onSelect .section-id{ background-color: #242424; color:#fff; }
+div.section:first-child{
+	margin-top: 0px;
+}
+div.section:last-child{
+	margin-bottom: 0px;
+}
+
+fieldset{
+	margin-top: 30px !important;
+}
+fieldset legend{
+	margin-top:-45px !important;
+  position:absolute;
+  border: none;
+}
+.section-title { font-size: 1.3em; font-weight: bolder;}
+.float-right { float: right;}
+.bgi-1{background-image: url('../img/bit-tile-blue.gif');}
+.bgi-2{background-image: url('../img/climpek.png');}
+.bgi-3{background-image: url('../img/grain_50.png');}
+.bgi-4{background-image: url('../img/grangy-tile.jpg');}
+
+.bgi-5{background-image: url('../img/pixel_weave.png');}
+.bgi-6{background-image: url('../img/simple_dashed.png');}
+.bgi-7{background-image: url('../img/squairy_light.png');}
+.bgi-8{background-image: url('../img/cream_pixels.png');}
+.bgi-9{background-image: url('../img/geometry.png');}
+.bgi-10{background-image: url('../img/notebook.png');}
+.bgi-11{background-image: url('../img/graphy.png');}
+.bgi-12{background-image: url('../img/dimension.png');}
+
+.fixed{ position: fixed !important;}
+#grid-view ul li{ margin-bottom: 15px; }
+.page h1{ margin-bottom: 50px;}
+.page p{ text-align: justify;}
+.bgi-6 input, .bgi-6 textarea{ width: 100%; background-color: #555555; border: 1px solid #888888;}
+html { overflow-x: hidden;}

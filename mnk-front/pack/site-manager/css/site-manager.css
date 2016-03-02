@@ -1,0 +1,76 @@
+ul.folder li ul { margin-left: 20px; display: none;}
+ul.folder li ul.open {display: block;}
+
+ul.folder li input { margin: 5px; }
+ul.folder li .folder-name {padding-left: 20px; font-weight: bolder; background-image : url('../img/folder.png'); background-repeat: no-repeat; background-position: left center;}
+
+
+ul.folder li { border-bottom: 1px solid #ecf0f1;}
+ul.folder li:last-child { border-bottom: 0px solid #ecf0f1;}
+ul.folder li .file-name {padding-left: 36px;background-image : url('../img/file5.png'); background-repeat: no-repeat; background-position: 16px center;}
+ul.folder li div.title:hover { background-color: #e5e5e5 !important;
+}
+.toggle-expand img { width: 16px; height: 16px;
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/arrow-right3.png'); background-repeat: no-repeat; background-position: left center;}
+
+.toggle-expand.expandOn img { width: 16px; height: 16px;
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/arrow-down2.png'); background-repeat: no-repeat; background-position: left center;}
+
+div.title{padding-left: 16px;
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/12px/checkbox-unchecked2.png'); background-repeat: no-repeat; background-position: 4px center;
+}
+div.title.checked{background-color: #f0f9ff;
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/12px/checkbox.png'); background-repeat: no-repeat; background-position: 4px center;
+}
+
+ul.folder li input[type=checkbox]{display: none;}
+div.menu .right{display: inline; float: right; }
+.toggleCheckAll img{ width: 16px; height: 16px; 
+
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/12px/checkbox-unchecked2.png'); background-repeat: no-repeat; background-position: center center;
+}
+
+.toggleCheckAll.check img{ width: 16px; height: 16px; 
+
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/12px/checkbox.png');
+}
+
+.portlet-body .header.padding_15, 
+.portlet-body .footer.padding_15 {
+        padding: 15px!important;
+}
+
+.portlet-body .footer{ border-top: 1px solid #ccc; margin-top: 30px; padding: 15px;}
+.portlet-body .footer input{ margin-bottom: 0px;}
+
+.portlet-body .menu ul.zip-save-list{
+
+}
+
+
+input.host {background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/storage2.png'); background-repeat:no-repeat; background-position: 4px center; padding-left: 22px;}
+input.user {background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/user6.png'); background-repeat:no-repeat; background-position: 4px center; padding-left: 22px;}
+input.pw {background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/16px/key.png'); background-repeat:no-repeat; background-position: 4px center; padding-left: 22px;}
+
+.loader input[type=button] {
+-moz-transform: scale(0.85) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+		-webkit-transform: scale(0.85) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(0.85) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(0.85) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        transform: scale(0.85) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -webkit-transition: all 250ms ease-in-out;
+		-moz-transition: all 250ms ease-in-out;
+        -ms-transition: all 250ms ease-in-out;
+        -o-transition: all 250ms ease-in-out;
+		transition: all 250ms ease-in-out;
+}
+.menu .hover {display: inline;}
+.menu .hover:hover { 
+background-color: #242424 !important;
+border-style: solid;
+border-width: 0 8px 10px 8px;
+border-color: transparent transparent #242424 transparent; 
+}
+.menu .hover .toggle{display: none; position: absolute;background-color: #242424 !important; padding: 10px;}
+.menu .hover .toggle a{color: #fff;}
+.menu .hover:hover .toggle{display: block;}

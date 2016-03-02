@@ -1,0 +1,77 @@
+.dark-zone .nav-tabs {
+    padding-left: 1px;margin-top: 1px;
+}
+.dark-zone .nav-tabs > .active > a,
+.dark-zone .nav-tabs > .active > a:hover,
+.dark-zone .nav-tabs > .active > a:focus {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #242424 !important; 
+    color: #ccc !important; 
+    padding: 10px;
+
+    border :none !important;
+
+    cursor: default;
+}
+a#snippet-pop{ float: right;}
+
+.snippet-list {}
+.snippet-list li{ border-bottom: 1px solid #f3f3f3;}
+.snippet-list li:hover{   }
+.snippet-list li a:hover {text-decoration: none;}
+li.onEditor{ background-color: #d35400;}
+li.onEditor a span.c-silver,
+li.onEditor a.c-dark,
+li.onEditor a{ color: #fff !important; text-decoration: none;}
+
+
+
+
+.snippet-editor textarea {
+    width: 98%;
+}
+
+
+.dark-zone .tabbable-custom > .tab-content .mini-pop { padding: 5px;position: absolute; background-color: #bdc3c7; display: none; font-size: 0.8em; border-radius: 5px!important;}
+
+
+.dark-zone .tabbable-custom > .tab-content .mini-pop .mini-arrow{ 
+    margin-top: -13px; 
+    position: absolute;    
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #bdc3c7;
+}
+
+
+
+.mini-pop th{ color: #242424;}
+
+
+
+
+.dark-zone .tabbable-custom > .tab-content .mini-pop input[type=submit]{padding: 3px; font-size: 0.9em;}
+.dark-zone .tabbable-custom > .tab-content .mini-pop input[type=text]{width:100px; background-color: #fff; color: #242424;}
+.dark-zone .tabbable-custom > .tab-content .mini-pop input[name=tabNum]{width:30px; background-color: #fff; color: #242424;}
+
+
+.dark-zone .tabbable-custom > .tab-content {
+ background-color: #242424; color: #ccc; 
+}
+
+.dark-zone  input,
+.dark-zone  textarea,
+.dark-zone  select,
+.dark-zone  hr{
+ background-color: #303030; color: #a2a2a2;  border: none;font-weight: 100; letter-spacing: 0.1em; 
+}
+.dark-zone .nav-tabs a{
+  color: #242424; 
+  }.dark-zone .nav-tabs .active a:hover{
+      background-color: #303030; color: #ccc;   
+  }

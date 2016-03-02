@@ -1,0 +1,92 @@
+/*body.bg-grid { background-image: url('../img/noisy_grid.png'); }*/
+.layer { }
+body.bg-grid h1.page-title img { display: none; }
+body.bg-grid h1.page-title { font-size: 1.5em; margin-top: 52px; padding: 0px; }
+
+.draw {
+	-webkit-transform-origin: 0% 50%;
+	-sand-transform-origin: 0% 50%;
+	-o-transform-origin: 0% 50%;
+	-ms-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	height: 50px;
+	position: absolute;
+	width: 150px;
+}
+svg.linker-zone,.layer {
+	top:0px;
+	left: 0px;
+	z-index: 500;
+}
+svg.linker-zone {
+	background-color: transparent;
+
+
+	z-index: 0;background-image: url('../img/old_mathematics.png'); 
+}
+svg.linker-zone line { stroke-linecap: "round"; stroke-width: 4px;  stroke:#555555; 
+}
+.onAltMaj svg.linker-zone line { stroke-dasharray: 4,4; }
+.layer {
+
+
+	margin: 0px !important;
+
+
+	z-index: 10;
+}
+
+.layer,
+svg.linker-zone
+{
+height: 100%; width: 100%;
+	position: absolute;
+}
+
+.rocket-param-edit  { position: relative; }
+.param-edit {
+	background: #fff;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 15px;
+	padding-bottom: 0px;
+	width: 220px;
+	z-index: 990;
+	/*position  absolute*/
+}
+.param-edit input,
+.param-edit textarea { width: 190px; }
+.rocket-param-edit.param-edit-open { z-index: 999 !important; }
+.rocket-param-edit:hover,
+.rocket-param-edit.onSelectDrag
+{ background: #FFF; }
+.rocket-param-edit.onSelectDrag,
+.rocket-param-edit.ui-selected {
+		-webkit-box-shadow: 0 50px 50px -10px rgba(0,0,0,0.3);
+
+	box-shadow: 0 50px 50px -10px rgba(0,0,0,0.3);
+
+
+	border: 2px solid #797979;	margin-left: -2px;
+	margin-top: -2px;
+	z-index: 999;
+
+	-moz-transform: scale(1.02) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(1.02) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-o-transform: scale(1.02) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(1.02) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+transform: scale(1.02) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+
+.mnk-mover {
+	background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/move.svg');
+	background-position: center center;
+	background-position: center center;
+	background-repeat: no-;
+	background-repeat: no-repeat;
+	background-size: 12px 12px;
+	float: left;
+	height: 36px;
+	margin-right: 15px;
+	width: 12px;
+}

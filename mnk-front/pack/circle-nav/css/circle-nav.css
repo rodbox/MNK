@@ -1,0 +1,10 @@
+#circle-0{ margin-left: 50%; margin-top: 20%; width: 0px;}
+
+button { 
+	}
+ul.circle-nav li { display: none; position: fixed; width: 48px; height: 48px; color:#fff;  text-align: center; -webkit-border-radius: 50px !important;
+-moz-border-radius: 50px!important;
+border-radius: 50px!important;}
+ul.circle-nav li {background-color: #252525;  z-index: 199 !important;}
+ul.circle-nav li ul li{background-color: #adad82; z-index: 999 !important;}
+ul.circle-nav li ul li ul li{background-color: #83b74f;}

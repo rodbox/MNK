@@ -1,0 +1,17 @@
+ #sidebar{z-index: 601;}
+
+.header.navbar-fixed-top{
+    z-index: 600 !important;
+}
+
+.modal-backdrop {  z-index: 605 !important; position: fixed}
+.modal {z-index: 999 !important; position: fixed}
+.modal .modal-header{ margin-top: -48px; color:#fff; border-bottom: none;}
+.navbar .nav > li > .dropdown-menu:before {
+  display: none !important;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: transparent !important;
+
+}

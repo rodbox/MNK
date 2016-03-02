@@ -1,0 +1,154 @@
+#paramActive,.back { 
+float: left; margin-right: 5px; }
+input.rocket-launcher,
+#rocket-launcher-suggest { width: 250px;}
+#rocket-launcher-suggest .svg-16,
+#rocket-launcher-suggest .svg-16 svg{ width: 32px; height: 32px; margin-right: 2px;}
+div.selection
+{
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    border: 0px !important;
+}
+#rocket-launcher-list ul li { 
+padding: 5px; border-bottom: 1px solid rgba(255,255,255,0.05); color: #888888; }
+#rocket-launcher-list ul li:last-child { 
+border-bottom: none; }
+#rocket-launcher-list ul li.onSelect { 
+background-color: #d35400; color: #fff; }
+li.rocket-func {
+	
+padding-left: 16px !important;
+	background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/arrow-right17.svg');
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-size: 6px 6px;
+}
+.rocket-exec-demo { position: absolute; }
+#rocket-launcher-suggest { width: 263px; }
+#rocket-launcher-fil { 
+display: none; height: 16px; width: 262px; }
+div.param-select {
+	background-color: rgba(255,255,255,0.2);
+	float: left;
+	font-size: 0.8em;
+	line-height: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px;
+}
+#nbResult {
+	background-color: rgba(0,0,0,0.05);
+	clear: both;
+	color: rgba(0,0,0,0.5);
+	font-size: 0.7em;
+	height: 20px;
+	margin-left: 235px;
+	margin-top: -30px;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+	width: 18px;
+}
+
+/*ul li .svg-16 { height: 32px; margin: 10px; width: 32px; }*/
+ul li .color-preview {
+	border: 1px solid rgb(36,36,36,0.5);
+	display: inline-block;
+	height: 36px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 36px;
+}
+ul li .color-index { margin-left: 5px; margin-right: 5px; }
+input.rocket-launcher {
+	
+background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/rocket.svg');
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	border-bottom: none;
+	padding-left: 26px !important;
+	width: 230px !important;
+}
+input:focus { outline: red dotted 2px ; }
+#rocket-launcher-result { 
+font-size: 2em; color: #fff; font-weight: bolder;  }
+#rocket-launcher-result span.small { font-size: 0.7em; font-weight: normal; 	-ms-filter 	: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+	filter 		: alpha(opacity=50):
+	-moz-opacity 	: 0.50;
+	-khtml-opacity 	: 0.50;
+	opacity 	: 0.50; }
+
+#rocket-helper {
+	
+display: none;
+	background-color: rgba(250,189,74,0.75);
+	background-image: url('http://metronic.excentrik.fr/mnk-include/core/img/svg/info.svg');
+	background-position: 15px 15px;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	border: 1px solid #e0e0e0;
+	color: #8c8c8c;
+	margin-left: 285px;
+	margin-top: 50px;
+	min-height: 40px;
+	padding: 15px;
+	padding-left: 56px;
+	position: absolute;
+	width: 235px;
+}
+
+#rocket-helper  .helper-cur { 
+font-size: 1.2em !important; color: #242424; font-weight: bolder; }
+*:focus { 
+outline: none !important; }
+.rocket-input input { background-color: #484747; border: 2px solid #484747; color: #c7c7c7;	margin-bottom: 0px !important; }
+.rocket-input img {background-color: #fff; padding: 5px; margin-top: 10px !important;}
+
+.rocket-input #rocket-launcher-list{
+	margin-top: 5px;
+	max-height: 750px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.mnkModal-on .rocket-input #rocket-launcher-list{
+	overflow-y: hidden;
+}
+
+
+.rocket-input #rocket-launcher-list,
+.rocket-input #rocket-launcher-fil
+{ background-color: transparent !important; }
+.rocket-input {
+	background-color: #242424;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	position: fixed;
+	right: 300px !important;
+	top: 0px;
+	z-index: 999;
+}
+.sidebar-hidden.navbar-hidden .rocket-input  { right: 0px!important; }
+.color-preview {
+	clear: both;
+	float: left;
+	height: 20px !important;
+	margin-right: 5px;
+	width: 48px;
+}
+.onSelect .maxi-meta,
+.onSelect .mini-meta {color: #ffb886}
+.maxi-meta,
+.mini-meta {color: #646464;}
+.mini-meta {float: right;}
+.recModeOn { border: 2px dashed #650c00;}
+.recModeOn:before{content: ""; background-color: #b91800; margin-top: 4px; margin-left: -32px;    width: 16px; position: absolute;
+   height: 16px;
+
+   -moz-border-radius: 8px; 
+   -webkit-border-radius: 8px; 
+   border-radius: 8px;}
+  

@@ -1,0 +1,30 @@
+
+.user_menu { background-color: #242424;}
+    .user_menu .menu ul li { display: inline;}
+    .user_menu .menu ul li .title{ display: none; position: absolute; background-color: #242424; padding: 5px; }
+    .account_statut a,
+    .user_menu .menu a,
+    .user_menu .menu ul li .title,
+    .user_menu .menu ul li .title span {color: #fff;}
+    .user_menu .menu ul li:hover .title{ display: block;}
+
+    .account_statut { margin-top: -13px; text-align: right;} 
+
+div.account_statut  {vertical-align: top; background-color: #242424;   color:#fff; margin: 0px;  }
+
+    div.account_statut  a{ color:#fff; text-decoration: none; }
+    div.account_statut span.user_name{ color: #fff;}
+    div.account_statut #loggout { float: right;}
+
+    div.account_statut div.account_statut-sub_menu { padding: 0px; padding-top: 3px; display: none; }
+    div.account_statut div.account_statut-sub_menu ul li {border-bottom: 1px solid #ccc; vertical-align: middle;background-color: #72a341;}
+    div.account_statut div.account_statut-sub_menu ul li:last-child { border: none;}
+    div.account_statut div.account_statut-sub_menu ul li:hover {  background-image: url('../img/b_242424_20.png');}
+    div.account_statut:hover div.account_statut-sub_menu { display: block;}
+    div.account_statut div.account_statut-sub_menu ul li a {line-height: 30px;  padding: 5px; }
+    div.account_statut div.account_statut-sub_menu ul li img { margin-right: 10px;}
+
+    div.account_statut img#deco{
+        display: none;
+    }
+    div.account_statut.grid_2{ width: 200px;}

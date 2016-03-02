@@ -1,0 +1,166 @@
+{
+	"ui": {
+		"func": "return false;",
+		"req": 1,
+		"nav" 	: "child",
+		"view"	: "img + val",
+		"params": ["IE", "IcoMoon", "accessibility", "accessibility2", "address-book", "address-book2", "aid", "airplane", "airplane2", "alarm-cancel", "alarm-check", "alarm-minus", "alarm-plus", "alarm", "alarm2", "align-bottom", "align-center-horizontal", "align-center-vertical", "align-left", "align-right", "align-top", "anchor", "android", "angry", "angry2", "apple-fruit", "apple", "archive", "arrow-bottom", "arrow-down-left", "arrow-down-left2", "arrow-down-left3", "arrow-down-left4", "arrow-down-left5", "arrow-down-left6", "arrow-down-left7", "arrow-down-right", "arrow-down-right2", "arrow-down-right3", "arrow-down-right4", "arrow-down-right5", "arrow-down-right6", "arrow-down-right7", "arrow-down", "arrow-down10", "arrow-down11", "arrow-down12", "arrow-down13", "arrow-down14", "arrow-down15", "arrow-down16", "arrow-down2", "arrow-down3", "arrow-down4", "arrow-down5", "arrow-down6", "arrow-down7", "arrow-down8", "arrow-down9", "arrow-first", "arrow-left", "arrow-left10", "arrow-left11", "arrow-left12", "arrow-left13", "arrow-left14", "arrow-left15", "arrow-left16", "arrow-left17", "arrow-left2", "arrow-left3", "arrow-left4", "arrow-left5", "arrow-left6", "arrow-left7", "arrow-left8", "arrow-left9", "arrow-right", "arrow-right10", "arrow-right11", "arrow-right12", "arrow-right13", "arrow-right14", "arrow-right15", "arrow-right16", "arrow-right17", "arrow-right18", "arrow-right2", "arrow-right3", "arrow-right4", "arrow-right5", "arrow-right6", "arrow-right7", "arrow-right8", "arrow-right9", "arrow-square", "arrow-up-left", "arrow-up-left2", "arrow-up-left3", "arrow-up-left4", "arrow-up-left5", "arrow-up-left6", "arrow-up-left7", "arrow-up-right", "arrow-up-right2", "arrow-up-right3", "arrow-up-right4", "arrow-up-right5", "arrow-up-right6", "arrow-up-right7", "arrow-up", "arrow-up10", "arrow-up11", "arrow-up12", "arrow-up13", "arrow-up14", "arrow-up15", "arrow-up16", "arrow-up2", "arrow-up3", "arrow-up4", "arrow-up5", "arrow-up6", "arrow-up7", "arrow-up8", "arrow-up9", "arrow", "arrow2", "arrow3", "arrow4", "arrow5", "arrow6", "arrow7", "arrow8", "atom", "atom2", "attachment", "attachment2", "backspace", "backspace2", "backspace3", "backward", "backward2", "bag", "bag2", "bag3", "balance", "balloon", "barcode", "barcode2", "bars", "bars2", "bars3", "bars4", "bars5", "bars6", "baseball", "basket", "basket2", "basketball", "bed", "bed2", "bell", "bell2", "bike", "binoculars", "binoculars2", "bishop", "blocked", "blog", "blog2", "blogger", "blogger2", "boat", "bold", "bold2", "bomb", "book", "book2", "bookmark", "bookmark2", "bookmark3", "bookmarks", "books", "bottle", "bottle2", "bowling-ball", "bowling", "bowling2", "box-add", "box-remove", "box", "brain", "briefcase", "briefcase2", "briefcase3", "brightness-contrast", "brightness-high", "brightness-low", "brightness-medium", "brush", "bubble-blocked", "bubble-cancel", "bubble-check", "bubble-dots", "bubble-dots2", "bubble-dots3", "bubble-dots4", "bubble-down", "bubble-first", "bubble-forward", "bubble-forward2", "bubble-heart", "bubble-last", "bubble-left", "bubble-link", "bubble-locked", "bubble-minus", "bubble-notification", "bubble-notification2", "bubble-paperclip", "bubble-plus", "bubble-quote", "bubble-replu", "bubble-reply", "bubble-right", "bubble-star", "bubble-trash", "bubble-up", "bubble-user", "bubble-video-chat", "bubble", "bubble10", "bubble11", "bubble12", "bubble13", "bubble2", "bubble3", "bubble4", "bubble5", "bubble6", "bubble7", "bubble8", "bubble9", "bubbles", "bubbles10", "bubbles2", "bubbles3", "bubbles4", "bubbles5", "bubbles6", "bubbles7", "bubbles8", "bubbles9", "bug", "bug2", "bullhorn", "bus", "busy", "busy2", "busy3", "busy4", "cabinet", "cake", "calculate", "calculate2", "calendar", "calendar2", "calendar3", "calendar4", "calendar5", "call-incoming", "call-outgoing", "camera", "camera2", "camera3", "camera4", "camera5", "camera6", "camera7", "camera8", "camera9", "cancel-circle", "cancel-circle2", "cancel", "car", "cart-add", "cart-checkout", "cart-minus", "cart-plus", "cart-remove", "cart-remove2", "cart", "cart2", "cart3", "cart4", "cart5", "cart6", "cart7", "cc", "cd", "certificate", "chart", "checkbox-checked", "checkbox-checked2", "checkbox-partial", "checkbox-partial2", "checkbox-partial3", "checkbox-unchecked", "checkbox-unchecked2", "checkbox-unchecked3", "checkbox", "checkmark-circle", "checkmark-circle2", "checkmark", "checkmark2", "checkmark3", "checkmark4", "chess", "chrome", "circle-small", "circle", "circle2", "clear-formatting", "clipboard", "clipboard2", "clipboard3", "clipboard4", "clock", "clock2", "clock3", "clock4", "clock5", "clock6", "clock7", "close", "close2", "close3", "close4", "close5", "cloud-download", "cloud-upload", "cloud", "cloud2", "cloud3", "clubs", "code", "cog", "cog2", "cog3", "cog4", "cog5", "cog6", "cog7", "cogs", "coin", "coins", "command", "compass", "compass2", "cone", "confused", "confused2", "connection", "connection2", "connection3", "console", "construction", "contact-add", "contact-add2", "contact-remove", "contact-remove2", "contract", "contract2", "contract3", "contrast", "cool", "cool2", "copy", "copy2", "copy3", "copy4", "cord", "credit", "credit2", "crop", "crop2", "crown", "css3", "cube", "cube2", "cube3", "cube4", "cup", "cup2", "cursor", "cursor2", "cylinder", "dashboard", "database", "database2", "database3", "delicious", "deviantart", "deviantart2", "diamond", "diamond2", "diamonds", "dice", "direction", "disk", "download", "download2", "download3", "download4", "download5", "download6", "download7", "drawer", "drawer2", "drawer3", "dribbble", "dribbble2", "dribbble3", "droplet", "droplet2", "droplet3", "droplet4", "dumbbell", "earth", "eight-ball", "eject", "embed", "enter", "enter2", "enter3", "enter4", "enter5", "envelop-opened", "envelop", "envelop2", "envelop3", "equalizer", "equalizer2", "equalizer3", "esc", "evil", "evil2", "exclude", "exit", "exit2", "exit3", "exit4", "expand", "expand2", "expand3", "eye-blocked", "eye-blocked2", "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eyedropper", "eyedropper2", "facebook", "facebook2", "facebook3", "facebook4", "factory", "fan", "feed", "feed2", "feed3", "feed4", "female", "file-check", "file-check2", "file-css", "file-download", "file-download2", "file-excel", "file-minus", "file-minus2", "file-openoffice", "file-pdf", "file-plus", "file-plus2", "file-powerpoint", "file-remove", "file-remove2", "file-upload", "file-upload2", "file-word", "file-xml", "file-zip", "file", "file2", "file3", "file4", "file5", "file6", "file7", "file8", "file9", "files", "film", "film2", "film3", "film4", "filter", "filter2", "filter3", "filter4", "finder", "fire", "fire2", "firefox", "first", "flag", "flag2", "flag3", "flag4", "flag5", "flag6", "flattr", "flickr", "flickr2", "flickr3", "flickr4", "flip", "flip2", "flower", "folder-download", "folder-download2", "folder-download3", "folder-minus", "folder-minus2", "folder-minus3", "folder-open", "folder-open2", "folder-open3", "folder-plus", "folder-plus2", "folder-plus3", "folder-plus4", "folder-remove", "folder-remove2", "folder-upload", "folder-upload2", "folder-upload3", "folder", "folder2", "folder3", "folder4", "folder5", "folder6", "folder8", "font-size", "font-size2", "font", "food", "food2", "football", "forrst", "forrst2", "forward", "forward2", "forward3", "foursquare", "foursquare2", "fullscreen", "gamepad", "gamepad2", "gamepad3", "gas-pump", "gift", "gift2", "github", "github2", "github3", "github4", "github5", "glass", "glass2", "glasses", "glasses2", "glasses3", "globe", "globe2", "globe3", "golf", "google-drive", "google-plus", "google-plus2", "google-plus3", "google-plus4", "google", "graduation", "grid", "grid2", "grid3", "grid4", "grid5", "grid6", "grin", "grin2", "guitar", "gun-ban", "gun", "hamburger", "hammer", "hammer2", "hand", "hanger", "happy", "happy2", "headphones", "headphones2", "health", "heart-broken", "heart-broken2", "heart-broken3", "heart", "heart2", "heart3", "heart4", "heart5", "heart6", "heart7", "heart8", "height", "highlight", "history", "history2", "hockey", "home", "home10", "home11", "home12", "home2", "home3", "home4", "home5", "home6", "home7", "home8", "home9", "html5", "html52", "image", "image2", "image3", "image4", "image5", "image6", "image7", "images", "images2", "indent-decrease", "indent-decrease2", "indent-increase", "indent-increase2", "info", "info2", "inject", "inject2", "insert-template", "instagram", "interset", "italic", "italic2", "joomla", "key-A", "key-down", "key-keyboard", "key-left", "key-right", "key-up", "key", "key2", "key3", "key4", "key5", "keyboard", "keyboard2", "keyhole", "king", "knight", "lab", "ladder", "lamp", "lamp2", "lamp3", "lamp4", "lanyrd", "laptop", "last", "lastfm", "lastfm2", "leaf", "leaf2", "left-to-right", "library", "library2", "libreoffice", "lightning", "link", "link2", "link22", "link3", "link4", "link5", "link6", "linkedin", "lips", "lips2", "list", "list2", "list3", "list4", "list5", "location", "location2", "location3", "location4", "location5", "location6", "location7", "lock", "lock2", "lock3", "lock4", "lock5", "loop", "loop2", "loop3", "loop4", "loop5", "magnet", "magnet2", "magnet3", "magnet4", "mail-send", "mail", "mail2", "mail3", "mail4", "male", "man", "map", "map2", "map3", "map4", "marker", "marker2", "medal", "medal2", "medal3", "medal4", "medal5", "megaphone", "menu-close", "menu-close2", "menu", "menu10", "menu11", "menu2", "menu3", "menu4", "menu5", "menu6", "menu7", "menu8", "menu9", "meter-fast", "meter-medium", "meter-slow", "meter", "meter2", "mic", "mic2", "mic3", "mic4", "mic5", "microscope", "minus-circle", "minus-circle2", "minus", "minus2", "mobile", "mobile2", "mobile3", "moon", "mouse", "mouse2", "mouse3", "mouse4", "move", "movie", "movie2", "movie3", "mug", "music", "music2", "music3", "music4", "music5", "music6", "nbsp", "network", "neutral", "neutral2", "new-tab", "new-tab2", "new", "newspaper", "next", "notebook", "notification", "notification2", "numbered-list", "office", "omega", "opera", "package", "pacman", "page-break", "page-break2", "pagebreak", "paint-format", "paint-format2", "palette", "palette2", "paper-plane", "paragraph-center", "paragraph-center2", "paragraph-center3", "paragraph-justify", "paragraph-justify2", "paragraph-justify3", "paragraph-left", "paragraph-left2", "paragraph-left3", "paragraph-right", "paragraph-right2", "paragraph-right3", "paste", "paste2", "paste3", "patch", "pause", "pause2", "paw", "pawn", "paypal", "paypal2", "paypal3", "peace", "pen", "pen2", "pen3", "pen4", "pen5", "pencil", "pencil2", "pencil3", "pencil4", "pencil5", "pencil6", "people", "phone-hang-up", "phone-hang-up2", "phone", "phone2", "phone3", "phone4", "phone5", "phone6", "piano", "picassa", "picassa2", "pie", "pie2", "pie3", "pie4", "pie5", "pie6", "pie7", "pilcrow", "pinterest", "pinterest2", "play", "play2", "play3", "play4", "playlist", "plus-circle", "plus-circle2", "plus", "plus2", "podcast", "podcast2", "podcast3", "podium", "point-down", "point-left", "point-right", "point-up", "pointer", "popout", "power-cord", "power", "power2", "previous", "print", "print2", "print3", "profile", "pushpin", "puzzle", "puzzle2", "puzzle3", "puzzle4", "pyramid", "pyramid2", "qrcode", "queen", "question", "question2", "question3", "question4", "question5", "quill", "quill2", "quill3", "quotes-left", "quotes-right", "quotes-right2", "quotes-right3", "racing", "radio-checked", "radio-unchecked", "radio", "radio2", "rating", "rating2", "rating3", "reading", "reddit", "redo", "redo2", "remove", "remove2", "remove3", "remove4", "remove5", "remove6", "remove7", "remove8", "reply", "reply2", "resize", "resize2", "right-to-left", "road", "rock", "rocket", "rotate", "rotate2", "rulers", "sad", "sad2", "safari", "scale-down", "scale-down2", "scale-up", "scale-up2", "scissors", "scissors2", "scissors3", "screen", "screen2", "screen3", "screen4", "screwdriver", "screwdriver2", "search", "search2", "search3", "search4", "search5", "settings", "seven-segment-0", "seven-segment-1", "seven-segment-2", "seven-segment-3", "seven-segment-4", "seven-segment-5", "seven-segment-6", "seven-segment-7", "seven-segment-8", "seven-segment-9", "share", "share2", "share3", "shield", "shield2", "shield3", "shield4", "ship", "shocked", "shocked2", "shuffle", "shuffle2", "sigma", "signup", "skull", "skull2", "skull3", "skype", "smiley", "smiley2", "snowflake", "soccer", "socket", "sort", "sort2", "soundcloud", "soundcloud2", "spades", "spam", "spell-check", "spinner", "spinner10", "spinner11", "spinner12", "spinner2", "spinner3", "spinner4", "spinner5", "spinner6", "spinner7", "spinner8", "spinner9", "spotlight", "square", "stack-cancel", "stack-checkmark", "stack-clubs", "stack-diamonds", "stack-down", "stack-empty", "stack-hearts", "stack-list", "stack-minus", "stack-music", "stack-picture", "stack-play", "stack-plus", "stack-spades", "stack-star", "stack-up", "stack-user", "stack", "stack2", "stack3", "stack4", "stackoverflow", "stairs-down", "stairs-down2", "stairs", "stairs2", "star", "star2", "star3", "star4", "star5", "star6", "starburst", "stats-down", "stats-up", "stats", "stats2", "stats3", "steam", "steam2", "steps", "stop", "stop2", "stopwatch", "storage", "storage2", "strikethrough", "strikethrough2", "strikethrough3", "stumbleupon", "stumbleupon2", "subscript", "subscript2", "subtract", "sun-glasses", "sun", "sun2", "superscript", "superscript2", "support", "switch", "tab", "table", "table2", "tablet", "tag", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8", "tags", "tags2", "target", "target2", "target3", "temperature", "temperature2", "text-color", "text-height", "text-width", "thumbs-down", "thumbs-down2", "thumbs-up", "thumbs-up2", "thumbs-up3", "thumbs-up4", "thumbs-up5", "thumbs-up6", "ticket", "tongue", "tongue2", "tools", "train", "transmission", "transmission2", "tree", "tree2", "tree3", "tree4", "tree5", "trophy-star", "trophy", "trophy2", "truck", "tshirt", "tumblr", "tumblr2", "tux", "tv", "twitter", "twitter2", "twitter3", "type", "umbrella", "underline", "underline2", "undo", "undo2", "unite", "unlocked", "unlocked2", "upload", "upload2", "upload3", "upload4", "upload5", "upload6", "upload7", "user-block", "user-block2", "user-cancel", "user-cancel2", "user-minus", "user-minus2", "user-minus3", "user-plus", "user-plus2", "user-plus3", "user", "user2", "user3", "user4", "user5", "user6", "user7", "user8", "users", "users2", "users3", "users4", "users5", "vcard", "vector", "vimeo", "vimeo2", "vimeo3", "volume-decrease", "volume-decrease2", "volume-high", "volume-high2", "volume-increase", "volume-increase2", "volume-low", "volume-low2", "volume-medium", "volume-medium2", "volume-mute", "volume-mute2", "volume-mute3", "volume-mute4", "volume-mute5", "volume-mute6", "volume0", "volume1", "volume2", "volume3", "volume4", "volume5", "wand", "wand2", "warning", "warning2", "watch", "wave", "wave2", "weather-lightning", "weather-rain", "weather-snow", "width", "windows", "windows8", "windy", "wink", "wink2", "woman", "wondering", "wondering2", "wordpress", "wordpress2", "wrench", "wrench2", "wrench3", "wrench4", "xing", "xing2", "yahoo", "yelp", "yin-yang", "youtube", "youtube2", "zoom-in", "zoom-in2", "zoom-out", "zoom-out2","align-list-horizontal","align-list-vertical"]
+	},
+	"page": {
+		"func": "window.location = 'http://metronic.excentrik.fr/index.php?page='+param1+'/'+param2+'&type=pack-page'",
+		"req": 2,
+		"nav" 	: "child",
+		"view"	: "val",
+		"params": [
+			"admin",
+			"basket-manager",
+			"calendar",
+			"carret-position",
+			"circle-nav",
+			"css-circle-pos",
+			"css-color-generator",
+			"css-grid-generator",
+			"css-webfont",
+			"dico",
+			"doc",
+			"draw",
+			"exec.php",
+			"pack-manager",
+			"paper.js",
+			"photos-manager",
+			"projectX",
+			"rocket",
+			"rocket-v2",
+			"root",
+			"section",
+			"site-manager",
+			"snippet-manager",
+			"test",
+			"test-nestable",
+			"theme-manager",
+			"thief",
+			"toodoo",
+			"uifinder",
+			"user"
+		]
+	},
+	"link": {
+		"func"	: "window.open(param1,'_blank');",
+		"req"	: 1,
+		"nav" 	: "child",
+		"view"	: "key + val",
+		"params": [
+			"http://emeline-et-seb-2013.excentrik.fr/",
+			"http://beta.excentrik.fr/",
+			"http://sunexis.fr",
+			"http://betty.excentrik.fr/",
+			"http://www.botmobil.rodbox.fr/",
+			"http://www.botmobil.rodbox.fr/wp-admin",
+			"http://rodbox.fr/",
+			"http://www.html5-css3.fr/html5/tutoriel-application-web-offline-html5-cache-manifest",
+			"http://css3generator.com/",
+
+			"http://jsonviewer.stack.hu/"
+		]
+	},
+	"toodoo-add":{
+		"func"	: "$(document).mnkLiveExec('toodoo','task-add',{'taskAdd':param1},'post');",
+		"req"	: 1,
+		"nav" 	: "free",
+		"view"	: "",
+		"params": []
+	},
+	
+	"link-add":{
+		"func"	: "$(document).mnkLiveExec('dico','add-dico',{'dicoTitleAdd':param1,'dicoAdd':param2,'dico':'link','share':'1'});",
+		"req"	: 2,
+		"nav" 	: "free",
+		"view"	: "",
+		"params": []
+	},
+	"calc":{
+		"func"	: "$('#rocket-launcher-result').html(param1+' = <span>'+eval(param1)+'<span>')",
+		"req"	: 1,
+		"nav" 	: "free",
+		"view"	: "",
+		"params": []
+	},
+	"refresh":{
+		"func"	: "document.location.reload(true)",
+		"req"	: 0,
+		"nav" 	: "free",
+		"view"	: "",
+		"params": []
+	},
+	"doc": {
+		"func"	: "return false;",
+		"req"	: 3,
+		"nav" 	: "child",
+		"view"	: "val",
+		"params": ["core","mod","constant"]
+	},
+	"save": {
+		"func"	: "$(document).mnkLiveExec('site-manager','site-save',{'site':param1});",
+		"req"	: 1,
+		"nav" 	: "child",
+		"view"	: "",
+		"params": ["alterenergies",
+			"beta.excentrik",
+			"betty.excentrik",
+			"botmobil",
+			"draw.excentrik",
+			"dropcode.excentrik",
+			"emeline-et-seb-2013",
+			"excentrik",
+			"gamer.excentrik",
+			"histo",
+			"metronic.excentrik",
+			"rodbox",
+			"sunexis"]
+	},
+	"color": {
+		"func": "return false;",
+		"req": 1,
+		"nav" 	: "child",
+		"view"	: "color + key + val",
+		"params": [
+			"#fff",
+			"#000",
+			"#05484F",
+			"#35aa47",
+			"#79BD9A",
+			"#A8DBA8",
+			"#CEF0B7",
+			"#FCFBE7",
+			"#FABD4A",
+			"#f39c12",
+			"#e67e22",
+			"#d35400",
+			"#2c3e50",
+			"#c0392b",
+			"#C0272D",
+			"#e74c3c",
+			"#242424",
+			"#363232",
+			"#3b3838",
+			"#423e3f",
+			"#555555",
+			"#7f8c8d",
+			"#95a5a6",
+			"#008C9A",
+			"#bdc3c7",
+			"#ecf0f1",
+			"#2980b9",
+			"#4b8df8",
+			"#9FD3DA",
+			"#b3e6fd",
+			"#9b59b6",
+			"#8e44ad"
+		]
+
+
+
+	}
+
+
+}

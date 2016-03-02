@@ -1,0 +1,78 @@
+input.rocket{
+	background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/fff/16px/rocket.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 26px;
+	margin-top: 7px;
+	margin-right: 5px;
+	background-color: #444;
+	border: none;
+	color: #fff;
+	line-height: 16px;
+	height: 16px;
+	width: 150px;
+}
+
+#rocket-launcher:before { content:""; position: absolute; margin-top: -9px; margin-left: 8px; width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 4px 6px 4px;
+border-color: transparent transparent #242424 transparent;
+	margin-top:15;
+}
+#rocket-launcher {margin-top: 5px; position: absolute; background-color: rgba(36,36,36,0.98); width: 306px;	min-height: 20px;display: none; }
+#rocket-launcher ul li { padding: 5px; border-bottom: 1px solid #333; color: #888;}
+#rocket-launcher ul li:last-child{ 
+	border: none !important;
+}
+#rocket-launcher ul li.onSelect,
+#rocket-launcher ul li.onActive.onSelect input{
+	background-color: rgba(255, 255, 255, 0.1) !important;
+	color: #fff;
+}
+#rocket-launcher ul li.onActive input{
+	color: #fff !important;
+}
+#rocket-launcher ul li.onActive{
+	background-color: rgba(211,84,0,0.9)!important;
+	color: #fff;
+}
+
+#rocket-launcher ul li.onActive.onSelect{
+	background-color: rgba(211,84,0,1)!important;
+	color: #fff;
+}
+
+
+#rocket-launcher #rocket-fil { padding:5px; }
+#rocket-launcher #rocket-fil a{ font-size: 0.8em;color: rgba(211,84,0,1)!important; }
+
+#rocket-launcher ul li.show{display: block;}
+#rocket-launcher ul li.hide{display: none;}
+
+#rocket-launcher { overflow: hidden;}
+#rocket-launcher .rocket-col-container {width: 1224px; }
+#rocket-launcher .rocket-col {width: 300px; padding: 3px; float: left;}
+
+.rocket-manager ul{margin-left: 15px !important;}
+.rocket-manager ul li ul:last-of-type li{font-weight: bolder;}
+
+
+
+tr.rocket-function-add{ padding-top: 5px; padding-bottom: 5px;}
+
+textarea.onAlt{ background-color: rgba(36,36,36,0.2);}
+table.rocket-func-list select{
+width: 50px;
+}
+table.rocket-manager input[type=text]{
+	border-bottom: none !important;
+}
+
+.paramListAuto {
+background-color: rgba(36,36,36,0.1);
+background-image : url('http://betty.excentrik.fr/mnk-include/core/img/ui/242424/12px/plus.png');
+background-position: center center;
+background-repeat: no-repeat;
+
+}

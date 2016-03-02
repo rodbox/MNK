@@ -1,0 +1,202 @@
+body{ overflow: hidden;}
+
+.content input {}
+.content img { position: absolute;     margin-left: 15px;
+    margin-top: 20px; -ms-filter  : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+  filter    : alpha(opacity=50):
+  -moz-opacity  : 0.5;
+  -khtml-opacity  : 0.5;
+  opacity   : 0.5;}
+
+
+img.bg-full{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    max-width: none !important;
+    display:none;
+}
+img.logo{
+  position: fixed;
+  top: 0px; left: 0px;
+}
+
+.form-actions { background: none !important;}
+a.btn,
+button[type="button"],
+button[type="submit"]{
+  border: none !important;
+  -webkit-box-shadow: 0 8px 0 -4px rgba(36,36,36,0.2)!important;
+box-shadow: 0 8px 0 -4px rgba(36,36,36,0.2)!important;
+}
+
+input[type="text"],input[type="password"] { 
+  margin-bottom: 15px;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(0,0,0,0.3)!important;
+
+  box-shadow:none !important;
+ }
+
+/***
+Login page
+***/
+
+/* logo page */
+.login .content .control-groug {
+ margin-bottom: 0px !important;
+}
+
+/* .login .logo {
+  width: 247px;
+  margin: 0 auto;   
+  margin-top:60px;
+  padding: 15px;
+  text-align: center;
+}  
+ */
+.login .content {
+ /*background-image: url('../img/b_fff_40.png');*/
+
+  margin: 0px auto;
+
+  /*background-color: rgba(0,0,0,0.15);*/
+  position: relative;
+
+  margin-top: 150px !important;
+}
+.login .content a,
+.login .content input,
+.login .content h3,
+.login .content h4,
+.login .content p {
+/*color:#F2B4A8 !important;*/
+}
+
+.login .content .login-form,
+.login .content .forget-form {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login .content .m-wrap {
+  width: 249px;
+  /*border-left: 0 !important;*/
+}
+
+
+.login .content .control-group {
+  margin-bottom: 20px !important;
+}
+
+.login .content .input-icon .m-wrap {  
+  margin: 0px !important;
+}
+
+.login .content .forget-form {
+  display: none;
+}
+
+.login .content .register-form {
+  display: none;
+}
+
+.login .content .form-title {
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.login .content .form-actions {
+
+  clear: both;
+  border: 0px;
+
+  padding: 0px 30px 25px 30px;
+}
+
+.login .content .forget-form .form-actions {
+  border: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}  
+
+.login .content .register-form .form-actions {
+  border: 0;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.login .content .form-actions .checkbox {
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.login .content .form-actions .btn {
+  margin-top: 1px;
+}
+
+.login .content .forget-password {
+  margin-top: 25px;
+}
+
+.login .content .create-account {
+  border-top: 1px dotted #eee;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.login .content .create-account a {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.login .copyright {
+  text-align: center;
+  width: 250px;
+  margin: 0 auto; 
+  padding: 10px 10px 0 10px;
+  color: #999;
+  font-size: 11px;
+}
+
+@media (max-width: 480px) {
+  /***
+  Login page
+  ***/
+  .login .logo {
+    margin-top:10px;
+  }
+
+  .login .content {
+    padding: 30px; 
+    width: 222px;
+  }
+
+  .login .content h3 {
+    font-size: 22px;
+  }
+
+  .login .content .m-wrap {
+      width: 180px;
+  }
+
+  .login .checkbox {
+    font-size: 13px;
+  }
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    rgba(0,0,0,0.4);
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color:    rgba(0,0,0,0.4);
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color:    rgba(0,0,0,0.4);
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:    rgba(0,0,0,0.4);
+}

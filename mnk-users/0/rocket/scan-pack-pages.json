@@ -1,0 +1,85 @@
+[{
+	"pack": "admin",
+	"pages": ["admin-index"]
+}, {
+	"pack": "basket-manager",
+	"pages": ["basket-manager-index"]
+}, {
+	"pack": "calendar",
+	"pages": ["calendar-index"]
+}, {
+	"pack": "carret-position",
+	"pages": ["carret-position-index", "index.html"]
+}, {
+	"pack": "circle-nav",
+	"pages": ["circle-nav-index"]
+}, {
+	"pack": "css-circle-pos",
+	"pages": ["css-circle-pos-index"]
+}, {
+	"pack": "css-color-generator",
+	"pages": ["css-color-generator-index"]
+}, {
+	"pack": "css-grid-generator",
+	"pages": ["css-grid-generator-index"]
+}, {
+	"pack": "css-webfont",
+	"pages": ["css-webfont-index"]
+}, {
+	"pack": "dico",
+	"pages": ["dico-index", "dico-view"]
+}, {
+	"pack": "doc",
+	"pages": ["doc-constant", "doc-core", "doc-index", "doc-mod", "doc-ui", "documentation_index"]
+}, {
+	"pack": "draw",
+	"pages": ["draw-index", "draw-normal"]
+}, {
+	"pack": "pack-manager",
+	"pages": ["pack-labo", "pack-manager-index", "pack-page-list"]
+}, {
+	"pack": "photos-manager",
+	"pages": ["gal-list-public", "my-gal", "photos-manager-index"]
+}, {
+	"pack": "projectX",
+	"pages": ["coment", "constat", "contact", "gal", "index", "presentation", "projectX-index", "toto"]
+}, {
+	"pack": "rocket",
+	"pages": ["rocket-index", "rocket-manager"]
+}, {
+	"pack": "rocket-v2",
+	"pages": ["rocket-v2-index","rocket-v2-manager"]
+}, {
+	"pack": "root",
+	"pages": ["menu-manager", "pack-index", "root-index"]
+}, {
+	"pack": "section",
+	"pages": ["preview", "section-index"]
+}, {
+	"pack": "site-manager",
+	"pages": ["db-dump", "site-create", "site-explorer", "site-manager-index"]
+}, {
+	"pack": "snippet-manager",
+	"pages": ["snippet-manager-index"]
+}, {
+	"pack": "test",
+	"pages": ["color-convert", "html-parse", "key-code", "plupload", "regexp", "test-index", "test-json", "toggle", "lister","mnkdrag"]
+}, {
+	"pack": "test-nestable",
+	"pages": ["test-nestable-index"]
+}, {
+	"pack": "theme-manager",
+	"pages": ["theme-manager-index"]
+}, {
+	"pack": "thief",
+	"pages": ["thief-index"]
+}, {
+	"pack": "toodoo",
+	"pages": ["toodoo-index"]
+}, {
+	"pack": "uifinder",
+	"pages": ["ui-svg", "uifinder-index"]
+}, {
+	"pack": "user",
+	"pages": ["redefine", "user-index", "user_account", "user_connect", "user_profile"]
+}]

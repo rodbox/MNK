@@ -1,0 +1,38 @@
+.circle li {position     : absolute;}
+.circle li p{margin: 0px;}
+
+.line-dashed{   font-size: 0.8em; text-align: center;  width: 0px; height: 0px; line-height: 40px; -webkit-box-shadow:  0px 0px 20px -5px rgba(0, 0, 0, 0.6);
+
+    box-shadow:  0px 0px 20px -5px rgba(0, 0, 0, 0.6);
+    vertical-align: middle;
+}
+
+.circle {
+	position: absolute;
+	width: 100px; 
+    height: 100px;
+}
+.circle-exemple{
+	margin: 150px;
+}
+
+
+
+#toppathwrap { 
+    position        : fixed; 
+    top             : 0px; 
+    right           : 0px; 
+    background-color: #F2F1E8; 
+    padding         : 5px; 
+    display         : none; 
+}
+
+.grid-pattern{
+    background-image: url('../img/grid_pattern_big.png'); 
+    height          : 900px;
+    background-color: #fff;
+    border          : 1px solid #ccc;	
+    -webkit-box-shadow: inset 0px 0px 200px 10px rgba(0, 0, 0, 0.1);
+    box-shadow      : inset 0px 0px 200px 10px rgba(0, 0, 0, 0.1);
+}
+

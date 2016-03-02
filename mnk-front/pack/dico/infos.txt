@@ -1,0 +1,6 @@
+Name        : [pack]
+Version     : 0.1
+Author      : 
+Email       : 
+
+Description :

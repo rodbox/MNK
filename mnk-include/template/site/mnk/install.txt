@@ -1,0 +1,146 @@
+-- phpMyAdmin SQL Dump
+-- version 2.6.4-pl3
+-- http://www.phpmyadmin.net
+-- 
+-- Serveur: db468992172.db.1and1.com
+-- Généré le : Mardi 03 Septembre 2013 à 16:38
+-- Version du serveur: 5.1.71
+-- Version de PHP: 5.3.3-7+squeeze17
+-- 
+-- Base de données: `db468992172`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_config`
+-- 
+
+CREATE TABLE `mnk_config` (
+  `conf_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `conf_Name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `conf_Val` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`conf_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_draw_project`
+-- 
+
+CREATE TABLE `mnk_draw_project` (
+  `proj_ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `proj_Line` int(2) NOT NULL,
+  `proj_Col` int(2) NOT NULL,
+  `proj_Name` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `proj_Width` int(4) NOT NULL,
+  `proj_Height` int(4) NOT NULL,
+  `proj_Crea` datetime NOT NULL,
+  `user_ID` int(11) NOT NULL,
+  PRIMARY KEY (`proj_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_draw_project_statut`
+-- 
+
+CREATE TABLE `mnk_draw_project_statut` (
+  `pstatut_ID` int(10) NOT NULL AUTO_INCREMENT,
+  `pstatut_Ref` varchar(33) COLLATE utf8_unicode_ci NOT NULL,
+  `pstatut_Statut` enum('0','1') COLLATE utf8_unicode_ci NOT NULL DEFAULT '0',
+  `pstatut_user_ID` int(11) NOT NULL,
+  `pstatut_proj_ID` int(11) NOT NULL,
+  PRIMARY KEY (`pstatut_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_user`
+-- 
+
+CREATE TABLE `mnk_user` (
+  `user_ID` int(11) NOT NULL AUTO_INCREMENT,
+  `user_User` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+  `user_Mail` varchar(155) COLLATE utf8_unicode_ci NOT NULL,
+  `user_Pw` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `user_Img` varchar(30) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user_Date_Time_Crea` datetime DEFAULT NULL,
+  `user_Power` enum('1','2','3') COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user_Lang` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user_First` varchar(25) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user_Last` varchar(25) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user_Civ` enum('Mme.','M.','Mlle.') COLLATE utf8_unicode_ci DEFAULT NULL,
+  `user_Confirm` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`user_ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=44 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=44 ;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_user_contact`
+-- 
+
+CREATE TABLE `mnk_user_contact` (
+  `user_ID_1` int(11) NOT NULL,
+  `user_ID_2` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_user_group`
+-- 
+
+CREATE TABLE `mnk_user_group` (
+  `group_ID` int(11) NOT NULL,
+  `group_Name` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `group_Crea` datetime NOT NULL,
+  PRIMARY KEY (`group_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_user_group_lnk`
+-- 
+
+CREATE TABLE `mnk_user_group_lnk` (
+  `user_ID` int(11) NOT NULL,
+  `group_ID` int(11) NOT NULL,
+  `lnk_type` enum('1','2','3') COLLATE latin1_general_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_user_msg`
+-- 
+
+CREATE TABLE `mnk_user_msg` (
+  `msg_ID` int(11) NOT NULL,
+  `msg_From_ID` int(11) NOT NULL,
+  `msg_To_ID` int(11) NOT NULL,
+  `msg_Object` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+  `msg_Content` blob NOT NULL,
+  `msg_Date` datetime NOT NULL,
+  `msg_Check` tinyint(1) NOT NULL,
+  PRIMARY KEY (`msg_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `mnk_user_statut`
+-- 
+
+CREATE TABLE `mnk_user_statut` (
+  `statut_user_ID` int(11) NOT NULL,
+  `statut_Date_Upd` datetime NOT NULL,
+  `statut_Statut` enum('0','1','2','3') COLLATE utf8_unicode_ci NOT NULL,
+  `statut_Ip` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  UNIQUE KEY `statut_user_ID` (`statut_user_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
